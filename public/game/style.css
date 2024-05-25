@@ -1,0 +1,1230 @@
+:root {
+  --color-lightpink: #eea9bb;
+  --color-lightyellow: #fff89b;
+  --color-lightblue: #658aa9;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  cursor: url(images/icon-daisy2.png), default;
+  touch-action: manipulation;
+  -webkit-touch-callout: none; /* Prevent callout menu */
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+button {
+  font-family: "JetBrains Mono", sans-serif;
+}
+
+/* ********** Main Menu ********** */
+.mainMenuContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  position: absolute;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.websiteBanner {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  font-family: "silkscreennormal";
+  font-weight: normal;
+  font-style: normal;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  gap: 1.25rem;
+}
+
+.logo {
+  font-size: 4.375rem;
+  text-shadow: 0.25rem 0.1875rem 0.0625rem var(--color-lightpink),
+    0 0 0.3125rem #ffffff;
+}
+
+#slogan {
+  font-size: 1.625rem;
+  line-height: 1.05;
+  background-color: rgba(0, 0, 0, 0.16);
+  margin: auto;
+  padding: 0.375rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 100px;
+}
+
+.menuButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+}
+
+.menuButtons button {
+  background-color: var(--color-lightblue);
+  border-radius: 10px;
+  border: 4px rgb(84, 116, 146) solid;
+  color: #ffffff;
+  width: 18.75rem;
+  height: 3.4375rem;
+  cursor: url(images/icon-daisy3.png), pointer;
+  font-family: "silkscreennormal";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.5rem;
+  user-select: none;
+}
+
+.menuButtons button:hover {
+  cursor: url(images/icon-daisy3.png), pointer;
+  background-color: var(--color-lightpink);
+  border: 4px rgb(204, 144, 154) solid;
+}
+
+.backgroundImage {
+  -webkit-transition: background-image 0.2s ease-in-out;
+  transition: background-image 0.2s ease-in-out;
+}
+
+/* ********** About Me Page ********** */
+.aboutMeContainer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-family: "silkscreennormal";
+  font-weight: normal;
+  font-style: normal;
+  color: #ffffff;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.aboutMeTitles {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutMeTitles h1 {
+  font-size: 2.5rem;
+  text-shadow: 0.25rem 0.1875rem 0.0625rem var(--color-lightpink),
+    0 0 0.3125rem #ffffff, 0 0 0.3125rem #ffffff;
+  user-select: none;
+  margin-bottom: -0.2rem;
+}
+
+.aboutMeSubtitle {
+  font-size: 1.25rem;
+}
+
+.aboutMeBody {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+#profilePic {
+  align-self: center;
+  width: 400px;
+  height: 274px;
+  user-select: none;
+}
+
+.letter {
+  font-family: "JetBrains Mono", sans-serif;
+  font-style: light;
+  font-weight: 300;
+  text-align: left;
+  font-size: 0.875rem;
+  line-height: 1.875em;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 0.5rem 1.375rem 0.5rem 1.375rem;
+  border-radius: 6px;
+  margin-right: 4rem;
+  margin-bottom: 4rem;
+}
+
+.contactInfo {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  user-select: none;
+  gap: 1.25rem;
+  align-items: center;
+  margin-top: 2rem;
+  padding-bottom: 1.375rem;
+}
+
+.contactInfo button {
+  background-color: #787878;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.contactInfo button:hover {
+  background-color: var(--color-lightpink);
+}
+
+.contactInfoItem:hover {
+  cursor: url(images/icon-daisy3.png), pointer;
+}
+
+#resumeButton {
+  font-family: "silkscreennormal";
+  font-size: 1.25rem;
+  color: #ffffff;
+  padding: 0.75rem;
+}
+
+.alert {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1rem;
+  font-family: "JetBrains Mono";
+  font-weight: 400;
+  font-style: normal;
+  margin: auto;
+  font-size: 0.875rem;
+  padding: 1.25rem;
+  background-color: #e36b89;
+  color: #ffffff;
+  border-radius: 0.3125rem;
+  user-select: none;
+  min-width: 180px;
+}
+
+.selectEmail {
+  font-family: "JetBrains Mono", sans-serif;
+  font-size: 0.875rem;
+  user-select: text;
+  background-color: rgb(250, 194, 199);
+  color: black;
+  border-radius: 5px;
+  padding: 0.25rem;
+  text-align: center;
+  width: auto;
+}
+
+/* The close button */
+.closeCopiedEmailButton {
+  font-family: "silkscreennormal";
+  margin-left: 2rem;
+  color: #ffffff;
+  font-weight: bold;
+  float: right;
+  font-size: 1.875rem;
+  line-height: 1.25rem;
+  cursor: url(images/icon-daisy3.png), pointer;
+  transition: 0.4s;
+  user-select: none;
+}
+
+.closeCopiedEmailButton:hover {
+  color: #454545;
+}
+
+/* ********** Widgets ********** */
+#widgets {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  padding: 1rem;
+  border-radius: 0px 0px 5px;
+  transition: visibility 0.5s, opacity 0.5s;
+  z-index: 1;
+}
+
+#widgets * {
+  user-select: none;
+  align-self: center;
+}
+
+/* Home Button */
+#homeIcon {
+  width: 32px;
+  height: 30px;
+  padding: 0;
+  background: url("images/widgets/home1.png") no-repeat;
+  border: none;
+}
+
+#homeIcon:hover {
+  cursor: url(images/icon-daisy3.png), pointer;
+  background: url("images/widgets/home2.png") no-repeat;
+}
+
+/* Mute / Unmute Widget */
+input#sound {
+  display: none;
+  width: 32px;
+  height: 30px;
+}
+.on img {
+  background: url("images/widgets/sound1-1.png") no-repeat;
+  display: none;
+}
+.on img:hover {
+  cursor: url(images/icon-daisy3.png), pointer;
+  background: url("images/widgets/sound1-2.png") no-repeat;
+}
+.off img {
+  background: url("images/widgets/sound2-1.png") no-repeat;
+}
+.off img:hover {
+  cursor: url(images/icon-daisy3.png), pointer;
+  background: url("images/widgets/sound2-2.png") no-repeat;
+}
+input#sound:checked ~ .on img {
+  display: initial;
+}
+input#sound:checked ~ .off img {
+  display: none;
+}
+
+.loaderWrapper {
+  width: 100%;
+  height: 100%;
+  background: #73b1e1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999999;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* ********** Play ********** */
+#welcomeMessageContainer {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+#welcomeMessage {
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  font-family: "silkscreennormal";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.125rem;
+  padding: 0.5rem 1.5rem 1.5rem 1.5rem;
+  border-radius: 5px;
+  line-height: 1.5;
+  opacity: 1;
+  transition: opacity 2s;
+  user-select: none;
+}
+
+#welcomeMessage h2 {
+  color: #ffbebe;
+  margin-bottom: -0.125rem;
+  line-height: 1;
+}
+
+#backToTeleportersLink {
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  font-family: "silkscreennormal";
+  font-weight: normal;
+  font-style: normal;
+  user-select: none;
+  font-size: 1.25rem;
+  position: fixed;
+  bottom: 1.25rem;
+  left: 1.25rem;
+  user-select: none;
+  color: #ffffff;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.5s, opacity 0.5s;
+  border-radius: 4px;
+  padding: 0.625rem;
+  border: none;
+  align-items: center;
+}
+
+#backToTeleportersLink:hover {
+  color: var(--color-lightpink);
+  cursor: url(images/icon-daisy3.png), pointer;
+  border: none;
+}
+
+#backToTeleportersLink:hover .keyboardKey {
+  color: #ffffff;
+  background-color: #0000008a;
+}
+
+.keyboardKey {
+  font-size: 1.25rem;
+  background-color: #00000065;
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+  margin-top: -0.125rem;
+  margin-bottom: -0.125rem;
+  margin-left: 0.75rem;
+}
+
+.keyboardKeySlides {
+  margin-left: 0.125rem;
+  margin-right: 0.125rem;
+  padding: 0.375rem 0.625rem;
+}
+
+.keyboardKeysContainer .keyboardKey {
+  margin: 0;
+  margin-left: -0.125rem;
+}
+
+.keyboardKeyMessage {
+  font-size: 0.875rem;
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+}
+
+.keyboardKeysContainer .keyboardKey:first-child {
+  margin-left: 0.25rem;
+}
+
+.keyboardKeysContainer .keyboardKey:last-child {
+  margin-right: 0.25rem;
+}
+
+.mobileKeysContainer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.mobileKeys {
+  display: flex;
+  padding: 0.75rem;
+  gap: 0.75rem;
+}
+
+.mobileKeys button {
+  user-select: none;
+  touch-action: manipulation; /* Disable default touch behavior */
+  -webkit-user-select: none; /* Disable text selection on WebKit browsers */
+  -moz-user-select: none; /* Disable text selection on Mozilla browsers */
+  -ms-user-select: none; /* Disable text selection on Microsoft browsers */
+  user-select: none; /* Disable text selection */
+  -webkit-touch-callout: none; /* Disable callout menu on WebKit browsers */
+}
+
+.mobileKey {
+  background-color: #00000065;
+  color: #ffffff;
+  border-radius: 6px;
+  font-family: "silkscreennormal";
+  font-weight: normal;
+  font-style: normal;
+  border: 0;
+  padding: 0;
+  width: 3.75rem;
+  height: 3.75rem;
+  font-size: 2rem;
+  user-select: none;
+}
+
+.mobileKey:active {
+  background-color: #0000007c;
+  color: var(--color-lightpink);
+}
+
+#mobileSpacer {
+  flex-grow: 1;
+}
+
+#locationMessage {
+  height: fit-content;
+  width: fit-content;
+  position: fixed;
+  bottom: 1.25rem;
+  right: 1.25rem;
+  text-align: center;
+  font-family: "silkscreennormal";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #0000008f;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.5s, opacity 0.5s;
+  user-select: none;
+}
+
+#fadeIn {
+  /* reference: https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load */
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0.15;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0.15;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0.15;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0.15;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeinfast {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeinfast {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeinfast {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeinfast {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#slideshowContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0.5s, opacity 0.5s;
+  background-color: #000000cc;
+  padding-top: 1.5rem;
+  padding-bottom: 0;
+}
+
+#slidesHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+  font-weight: normal;
+  font-style: normal;
+  opacity: 1;
+}
+
+#slidesTitle {
+  font-weight: 400;
+  color: #ffffff;
+  font-family: "silkscreennormal";
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+#exitSlideshowMessage {
+  text-align: center;
+  color: #ffffff80;
+  font-family: "silkscreennormal";
+  font-size: 1.125rem;
+  line-height: 1.05;
+}
+
+#closeSlidesButton {
+  position: absolute;
+  top: 1.75rem;
+  right: 2rem;
+  margin-top: 0;
+  font-size: 2.5rem;
+  line-height: 1.25rem;
+  color: #ffffff;
+  font-weight: bold;
+  transition: 0.4s;
+  user-select: none;
+}
+#closeSlidesButton:hover {
+  color: var(--color-lightpink);
+  cursor: url(images/icon-daisy3.png), pointer;
+}
+
+#slidesBody {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  width: 100%;
+}
+
+#pictureSection {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 6;
+  background-color: #0f0f0f;
+}
+
+#slides img,
+#slides video {
+  height: 100%;
+  width: 100%;
+  user-select: none;
+  -webkit-user-drag: none;
+  object-fit: contain;
+}
+
+/* reference: https://www.w3schools.com/howto/howto_js_slideshow.asp */
+#dotsLayout {
+  display: flex;
+  flex-direction: row;
+  gap: 0.375rem;
+  position: absolute;
+  bottom: 2rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 500px;
+  padding: 0.375rem 0.625rem;
+  z-index: 1;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.dots {
+  height: 0.9375rem;
+  width: 0.9375rem;
+  background-color: #1c1e1fb3;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.4s ease;
+}
+
+.active,
+.dots:hover {
+  cursor: url(images/icon-daisy3.png), pointer;
+  background-color: var(--color-lightpink);
+}
+
+#prevSlideButton,
+#nextSlideButton {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  height: 5rem;
+  width: 3rem;
+  transition: 0.4s ease;
+  border-radius: 10px;
+}
+
+#prevSlideButton {
+  left: 0.5rem;
+}
+
+#nextSlideButton {
+  right: 0.5rem;
+}
+
+#prevSlideButton:hover,
+#nextSlideButton:hover {
+  cursor: url(images/icon-daisy3.png), pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#prev,
+#next {
+  display: flex;
+  align-items: center;
+  color: #ffffffda;
+  font-weight: bold;
+  font-size: 2.75rem;
+  user-select: none;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+#prev:hover,
+#next:hover {
+  color: #ffffff;
+  transition: 0.3s ease;
+}
+
+#expandSlideImageButton,
+#compressSlideImageButton {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  bottom: 1rem;
+  right: 1rem;
+  border-radius: 4px;
+  border: none;
+  transition: 0.3s ease;
+  padding: 10px;
+}
+
+#expandSlideImageButton {
+  background: url("images/widgets/expand1.png") no-repeat;
+  background-size: 40px 40px;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#expandSlideImageButton:hover {
+  cursor: url(images/icon-daisy3.png), pointer;
+  background: url("images/widgets/expand2.png") no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: 40px 40px;
+}
+
+#expandedSlideScreen {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c1c1c;
+  visibility: hidden;
+  transition: 0.4s;
+  opacity: 0;
+  user-select: none;
+  z-index: 2;
+}
+
+#expandedSlideImage img {
+  pointer-events: none;
+}
+
+#compressSlideImageButton {
+  background: url("images/widgets/compress1.png") no-repeat;
+  background-size: 40px 40px;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#compressSlideImageButton:hover {
+  cursor: url(images/icon-daisy3.png), pointer;
+  background: url("images/widgets/compress2.png") no-repeat;
+  background-position: center;
+  background-size: 40px 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#aboutSection {
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+  gap: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background: #1c1c1c;
+  overflow-y: auto;
+  position: relative;
+}
+
+#aboutSectionHeader {
+  color: var(--color-lightyellow);
+  font-family: "JetBrains Mono", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.75rem;
+  text-align: center;
+  user-select: none;
+  line-height: 1.1;
+}
+
+#descriptions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-family: "JetBrains Mono", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  font-style: normal;
+  font-size: 0.875rem;
+  line-height: 1.875em;
+  padding-right: 1rem;
+}
+
+.descriptionsHighlight {
+  color: var(--color-lightyellow);
+  font-style: italic;
+  font-weight: 300;
+}
+
+.descriptionsNoPadding {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.projectCardsSection {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.projectCards {
+  background-color: rgb(49, 49, 49);
+  border-radius: 5px;
+  padding-left: 0.75rem;
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+  padding-right: 0.75rem;
+  width: 33%;
+}
+
+.projectCardsTitle {
+  font-weight: 400;
+  color: var(--color-lightyellow);
+  border-bottom: 0.125rem solid rgb(27, 27, 27);
+  padding-bottom: 0.1875rem;
+  width: calc(100% - 0.25rem);
+  margin-bottom: 0.25rem;
+}
+
+.projectSubtitles {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--color-lightyellow);
+  border-bottom: 0.125rem solid rgb(58, 58, 58);
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.funFact {
+  margin-top: 1.875rem;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  font-size: 0.8125rem;
+  background-color: rgb(43, 43, 43);
+  border-radius: 5px;
+}
+
+.createdWith {
+  color: #a1a1a1;
+  font-size: 0.8125rem;
+}
+
+.slidesLinkSection {
+  display: flex;
+  justify-content: center;
+}
+
+.slidesLink {
+  margin: auto;
+  color: #ffffff;
+  font-family: "silkscreennormal";
+  font-weight: normal;
+  font-style: normal;
+  padding: 0.75rem 1.125rem;
+  font-size: 1.125rem;
+  background-color: var(--color-lightblue);
+  border-radius: 5px;
+  border: none;
+}
+
+.slidesLink:hover {
+  background-color: var(--color-lightpink);
+  cursor: url(images/icon-daisy3.png), pointer;
+}
+
+/* #aboutSectionButtons {
+  position: relative;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#aboutSectionButtons button {
+  color: white;
+  background-color: #00000065;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+}
+
+#aboutSectionButtons button:hover {
+  background-color: #0000007c;
+  cursor: url(images/icon-daisy3.png), default;
+} */
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.75rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #2b2b2b;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #575757;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7a7a7a;
+}
+
+/* ********** Other ********** */
+a:link,
+a:visited {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+  font-family: "silkscreennormal";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  cursor: url(images/icon-daisy3.png), pointer;
+}
+
+a:hover,
+a:active {
+  color: #8a8a8a;
+  background-color: transparent;
+  text-decoration: none;
+  font-family: "silkscreennormal";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.5rem;
+  transition: 0.4s;
+}
+
+@font-face {
+  font-family: "silkscreennormal";
+  src: url("fonts/slkscr-webfont.eot"); /* IE9 Compat Modes */
+  src: url("fonts/slkscr-webfont.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/slkscr-webfont.woff") format("woff"),
+    /* Pretty Modern Browsers */ url("fonts/slkscr-webfont-webfont.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("fonts/slkscr-webfont.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("fonts/slkscr-webfont.svg#svgFontName")
+      format("svg"); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "droidsansmono";
+  src: url("fonts/droidsansmono-webfont.eot"); /* IE9 Compat Modes */
+  src: url("fonts/droidsansmono-webfont.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/droidsansmono-webfont.woff") format("woff"),
+    /* Pretty Modern Browsers */
+      url("fonts/droidsansmono-webfont-webfont.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("fonts/droidsansmono-webfont.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("fonts/droidsansmono-webfont.svg#svgFontName") format("svg"); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Media Widths */
+@media (max-width: 1400px) {
+  /* Play */
+  .projectCardsSection {
+    flex-direction: column;
+  }
+  .projectCards {
+    width: calc(100% - 1.25rem);
+  }
+}
+
+@media (max-width: 1300px) {
+  /* Play */
+  #locationMessage {
+    display: flex;
+    justify-content: center;
+    line-height: 1.05;
+    white-space: normal;
+    max-width: 200px;
+  }
+  #backToTeleportersLink {
+    line-height: 1.05;
+    white-space: normal;
+  }
+}
+
+@media (max-width: 1000px) {
+  /* Play */
+  #slideshowContainer {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+  #slidesBody {
+    flex-direction: column;
+    overflow-y: auto;
+    gap: 0;
+    width: 100%;
+    height: 100%;
+  }
+  #pictureSection {
+    max-height: 25vh;
+  }
+  #pictureSection img,
+  #pictureSection video {
+    max-height: 25vh;
+  }
+  #expandSlideImageButton,
+  #compressSlideImageButton {
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    padding: 8px;
+  }
+  #expandSlideImageButton:hover,
+  #compressSlideImageButton:hover {
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+  }
+  #aboutSection {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background: #1c1c1c;
+    border-radius: 0;
+  }
+  #descriptions {
+    padding-right: 0;
+    overflow-y: visible;
+  }
+  .projectCardsSection {
+    flex-direction: row;
+  }
+  .projectCards {
+    width: 33%;
+  }
+  #dotsLayout {
+    bottom: 1rem;
+  }
+}
+
+@media (max-width: 850px) {
+  /* About Me */
+  .aboutMeBody {
+    flex-direction: column;
+  }
+  #profilePic {
+    width: 400px;
+    height: auto;
+  }
+  .letter {
+    margin: 1.5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  /* Main Menu */
+  .logo {
+    font-size: 3.5rem;
+  }
+  #slogan {
+    font-size: 1.5rem;
+  }
+  .menuButtons button {
+    width: 16rem;
+  }
+  /* Play */
+  #backToTeleportersLink {
+    max-width: 250px;
+  }
+  #locationMessage {
+    font-size: 1.25rem;
+    top: 1.25rem;
+    right: 0;
+    border-radius: 4px 0 0 4px;
+    padding: 0.5rem;
+  }
+  #aboutSectionHeader {
+    font-size: 1.5rem;
+  }
+  .projectSubtitles {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  /* Play */
+  #slideshowContainer {
+    padding-top: 1.5rem;
+    gap: 0.75rem;
+  }
+  #slidesTitle {
+    font-size: 2rem;
+  }
+  #exitSlideshowMessage {
+    font-size: 1rem;
+  }
+  .projectCardsSection {
+    flex-direction: column;
+  }
+  .projectCards {
+    width: calc(100% - 1.25rem);
+  }
+  #aboutSection {
+    padding: 1.5rem 1.25rem;
+  }
+  #aboutSectionHeader {
+    font-size: 1.5rem;
+  }
+  .projectSubtitles {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  /* About Me */
+  #profilePic {
+    width: 60%;
+    height: auto;
+  }
+  .letter {
+    font-size: 0.8125rem;
+    margin: 0;
+    border-radius: 0;
+    align-self: center;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+  }
+  .alert {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+  .selectEmail {
+    font-size: 0.75rem;
+  }
+}
+
+/* Media Heights */
+@media (max-height: 500px) {
+  /* Main Menu */
+  .mainMenuContainer {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+  .websiteBanner {
+    gap: 0.5rem;
+  }
+  /* Play */
+  #slideshowContainer {
+    padding-top: 1.5rem;
+    gap: 0.75rem;
+  }
+  #slidesTitle {
+    font-size: 2rem;
+  }
+  #descriptions {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-height: 300px) {
+  /* Main Menu */
+  .mainMenuContainer {
+    gap: 1rem;
+  }
+  .menuButtons button {
+    height: 2.75rem;
+  }
+}

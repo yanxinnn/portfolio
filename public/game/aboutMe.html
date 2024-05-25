@@ -1,0 +1,117 @@
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>About Me • Yanxin Jiang Portfolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+    <script src="lib/p5.play.js"></script>
+    <script src="aboutMe.js"></script>
+    <link rel="icon" type="image/png" href="images/icon-daisy.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-VVTZ53D22W"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-DY3BQBR7RB");
+  </script>
+
+  <body>
+    <div id="widgets">
+      <button
+        id="homeIcon"
+        onclick="mainMenu()"
+        alt="Return to Main Menu"
+      ></button>
+    </div>
+    <div class="aboutMeContainer">
+      <div class="aboutMeTitles">
+        <h1>About Me</h1>
+        <div class="aboutMeSubtitle">
+          <p>Code and Art by: Yanxin Jiang</p>
+        </div>
+      </div>
+      <div class="aboutMeBody">
+        <img id="profilePic" src="images/me2.gif" alt="Sprite of Yanxin" />
+        <div class="letter">
+          <p>Hey there!</p>
+          <p>
+            I'm Yanxin (yang-sheen), a UX Designer & Developer passionate about
+            creating impactful, delightful and human experiences. I graduated
+            from New York University, where I studied Integrated Design & Media,
+            Computer Science, and Science & Technology Studies.
+          </p>
+          <p>
+            This portfolio was inspired by my love for video games, art, and
+            coding. I created this website from scratch using Javascript (p5.js,
+            jQuery), HTML/CSS, and graphic editors such as Adobe Photoshop,
+            Medibang Paint, and Piskel. I hope you enjoy exploring my little
+            world! :)
+          </p>
+          <p>
+            If you have any comments, questions, suggestions, or just want to
+            say hi, feel free to drop me a message anytime!
+          </p>
+          <br />
+          <p>Catch you on the pixelated side!<br />Yanxin</p>
+          <div class="contactInfo">
+            <a href="https://www.linkedin.com/in/yanxinn/" target="_blank"
+              ><button id="linkedInButton" class="contactInfoItem">
+                <img
+                  src="images/widgets/linkedInIcon.png"
+                  alt="LinkedIn"
+                /></button
+            ></a>
+            <p hidden id="email">yanxinjiang@live.com</p>
+            <button
+              id="emailButton"
+              class="contactInfoItem"
+              onclick="copyToClipboard('#email')"
+            >
+              <img src="images/widgets/emailIcon.png" alt="Email" />
+            </button>
+            <button
+              id="resumeButton"
+              class="contactInfoItem"
+              onclick="openResume()"
+            >
+              Resume
+              <img src="images/widgets/resumeLink.png" alt="Resume Link" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div hidden class="alert" id="emailCopiedMessage">
+        <span
+          class="closeCopiedEmailButton"
+          onclick="this.parentElement.style.display='none';"
+          >&times;</span
+        >
+        Email copied to clipboard!
+        <br /><br />
+        <div class="selectEmail">yanxinjiang@live.com</div>
+      </div>
+    </div>
+
+    <div class="loaderWrapper"></div>
+
+    <!-- Javascript Sketch -->
+    <div id="mainMenuDiv"></div>
+  </body>
+</html>

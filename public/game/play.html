@@ -1,0 +1,140 @@
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Play • Yanxin Jiang Portfolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+    <script src="lib/p5.play.js"></script>
+    <script src="lib/p5.sound.min.js"></script>
+    <script src="play.js" type="module"></script>
+    <link rel="icon" type="image/png" href="images/icon-daisy.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-VVTZ53D22W"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-DY3BQBR7RB");
+  </script>
+
+  <body>
+    <div class="loaderWrapper">
+      <img src="images/loading.gif" class="bouncingDaisies" />
+    </div>
+    <div id="welcomeMessageContainer">
+      <div id="welcomeMessage">
+        <h2>Welcome to my portfolio!</h2>
+        <br />Use
+        <span id="welcomeMessageDesktop">
+          <span class="keyboardKeysContainer">
+            <span class="keyboardKey">W</span>
+            <span class="keyboardKey">A</span>
+            <span class="keyboardKey">S</span>
+            <span class="keyboardKey">D</span>
+          </span>
+          or
+          <span class="keyboardKeysContainer">
+            <span class="keyboardKey keyboardArrow">&#8592;</span>
+            <span class="keyboardKey keyboardArrow">&#8594;</span>
+          </span>
+        </span>
+        <span id="welcomeMessageMobile">
+          <span class="keyboardKeysContainer">
+            <span class="keyboardKey keyboardKeyMessage">&#10094;</span>
+            <span class="keyboardKey keyboardKeyMessage">&#10095;</span>
+          </span>
+        </span>
+        keys to move around
+      </div>
+    </div>
+
+    <div class="mobileKeysContainer">
+      <div class="mobileKeys">
+        <button class="mobileKey" id="mobileLeft">&#10094;</button>
+        <button class="mobileKey" id="mobileRight">&#10095;</button>
+        <div id="mobileSpacer"></div>
+        <button class="mobileKey" id="mobileInteract">E</button>
+      </div>
+    </div>
+
+    <div id="widgets">
+      <button id="homeIcon" alt="Return to Main Menu"></button>
+      <!-- Mute / Unmute Widget -->
+      <!-- reference : https://stackoverflow.com/questions/22918220/how-to-create-a-only-mute-unmute-button-like-youtube-in-html -->
+      <div id="soundIcon" tabindex="0">
+        <input id="sound" type="checkbox" />
+        <label for="sound" class="on">
+          <img src="images/widgets/nothing.png" id="onIcon" />
+        </label>
+        <label for="sound" class="off">
+          <img src="images/widgets/nothing.png" id="offIcon" />
+        </label>
+      </div>
+    </div>
+    <button id="backToTeleportersLink" alt="Back to Teleporters">
+      BACK TO TELEPORTERS
+      <div class="keyboardKey" id="backKeyIcon">B</div>
+    </button>
+    <div id="locationMessage"></div>
+
+    <div id="slideshowContainer">
+      <div id="slidesHeader">
+        <div id="slidesTitle"></div>
+        <div id="exitSlideshowMessage">
+          Press
+          <span class="keyboardKey keyboardKeySlides">Q</span>
+          or
+          <span class="keyboardKey keyboardKeySlides">ESCAPE</span>
+          to Exit
+        </div>
+        <div id="closeSlidesButton">&times;</div>
+      </div>
+      <div id="slidesBody">
+        <div id="pictureSection">
+          <div id="slides"></div>
+          <div id="dotsLayout"></div>
+          <div id="prevSlideButton">
+            <div id="prev">&#10094;</div>
+          </div>
+          <div id="nextSlideButton">
+            <div id="next">&#10095;</div>
+          </div>
+          <button id="expandSlideImageButton"></button>
+        </div>
+        <div id="aboutSection">
+          <div id="aboutSectionHeader"></div>
+          <div id="descriptions"></div>
+          <!-- <div id="aboutSectionButtons">
+            <button class="aboutSectionButton">Back</button>
+            <button class="aboutSectionButton">Next</button>
+          </div> -->
+        </div>
+      </div>
+      <div id="expandedSlideScreen">
+        <div id="expandedSlideImage"></div>
+        <button id="compressSlideImageButton"></button>
+      </div>
+    </div>
+
+    <canvas id="myCanvas"></canvas>
+
+    <!-- Javascript Sketch -->
+    <div id="play-div"></div>
+  </body>
+</html>
