@@ -1,17 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@layer base {
+  body {
+    @apply text-stone-550;
+  }
+
+  h1 {
+    @apply font-header font-bold text-earthy-500 text-3xl leading-10;
+  }
+
+  h3 {
+    @apply font-header text-xl font-medium;
+  }
+
+  p {
+    @apply font-body leading-7;
+  }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer components {
+  .logo {
+    @apply font-bold grow text-2xl text-earthy-500;
   }
 }
