@@ -1,4 +1,3 @@
-import React from "react";
 import { ProjectCard } from "@/components/ProjectCard";
 
 export default function Home() {
@@ -39,14 +38,16 @@ export default function Home() {
         <div className="grid grid-cols-2 max-w-4xl m-auto gap-x-16 gap-y-24">
           <ProjectCard
             title="Pypeline"
-            image="images/pypelineCard.png"
-            tag={["SaaS", "Data Lifecycle Management"]}
+            image="images/pypeline.png"
+            backgroundColor="bg-[#D1D8F3]"
+            tags={["SaaS", "Data Lifecycle Management"]}
             description="A SaaS application empowering data professionals to streamline data lifecycle operations."
           />
           <ProjectCard
             title="Float-it Notes"
-            image="images/floatItNotesCard.png"
-            tag={["Chrome Extension", "Productivity"]}
+            image="images/floatItNotes.png"
+            backgroundColor="bg-[#BEE6EE]"
+            tags={["Chrome Extension", "Productivity"]}
             description="A Chrome extension helping students to keep track of their tasks in a stress-free way."
           />
         </div>
