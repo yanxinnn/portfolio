@@ -20,10 +20,11 @@ export function ProjectCard(props: ProjectCardProps) {
 
         <div className="flex flex-wrap gap-3">
           {props.tags.map((tag) => (
-            <div key={tag} className="bg-neutral-150 rounded-full py-1 px-3">
-              <p className="tracking-wider text-sm font-body uppercase font-medium text-stone-500">
-                {tag}
-              </p>
+            <div
+              key={tag}
+              className="bg-neutral-150 rounded-full px-3 tracking-wider text-sm font-body uppercase text-stone-500"
+            >
+              <p className="font-medium">{tag}</p>
             </div>
           ))}
         </div>

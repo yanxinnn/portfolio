@@ -16,7 +16,7 @@ export default function Home() {
 
       {/* intro */}
       <div className="flex pt-16 gap-8 max-w-2xl">
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 pb-4">
           <h1>Hey, I'm Yanxin (yang-sheen)!</h1>
 
           <p className="leading-7 pb-20">
@@ -34,7 +34,7 @@ export default function Home() {
       </div>
 
       {/* projects */}
-      <div className="bg-white self-stretch p-16">
+      <div className="bg-white self-stretch p-16 pb-24">
         <div className="grid grid-cols-2 max-w-4xl m-auto gap-x-16 gap-y-24">
           <ProjectCard
             title="Pypeline"
@@ -54,10 +54,10 @@ export default function Home() {
       </div>
 
       {/* link to interactive portfolio */}
-      <div className="pt-16 flex gap-16">
+      <div className="pt-16 flex gap-24">
         <img
-          src="/images/yanxin.gif"
-          alt="A pixelated Yanxin GIF"
+          src="/images/bunny.gif"
+          alt="A pixelated bunny GIF"
           className="transform object-none self-end bg-auto"
         />
 
@@ -70,7 +70,7 @@ export default function Home() {
       <div className="bg-earthy-700 text-white self-stretch flex flex-col items-center py-8 gap-4">
         <p>yanxinjiang@live.com</p>
 
-        <p>(LinkedIn Icon)</p>
+        <img src="images/linkedinIcon.svg" />
       </div>
     </div>
   );

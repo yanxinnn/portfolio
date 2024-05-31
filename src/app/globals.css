@@ -19,7 +19,7 @@
   }
 
   p {
-    @apply font-body leading-7;
+    @apply font-body leading-7 font-normal;
   }
 }
 
