@@ -51,6 +51,12 @@
     @apply font-medium flex gap-12 text-lg;
   }
   .logo {
-    @apply font-bold grow text-2xl;
+    @apply font-bold grow text-2xl tracking-wider;
+  }
+  .projectStatsLabel {
+    @apply pl-0 text-stone-450 leading-5;
+  }
+  .projectStatsText {
+    @apply text-base leading-7;
   }
 }

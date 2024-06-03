@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="bg-[#fef2ec] flex flex-col items-center">
-      {/* header */}
+      {/* Header */}
       <div className="header">
         <Link href="/" className="logo text-earthy-500">
           YJ
@@ -17,7 +17,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* intro */}
+      {/* Intro */}
       <div className="flex pt-24 gap-12 max-w-[48rem]">
         <div className="flex flex-col gap-10 pb-4">
           <h1 className="text-earthy-500">Hey, I'm Yanxin (yang-sheen)!</h1>
@@ -36,7 +36,7 @@ export default function Home() {
         />
       </div>
 
-      {/* projects */}
+      {/* Projects */}
       <div className="bg-white self-stretch p-20 pb-28">
         <div className="grid grid-cols-2 max-w-[62rem] m-auto gap-x-[4.5rem] gap-y-24">
           <ProjectCard
@@ -58,7 +58,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* link to interactive portfolio */}
+      {/* Link to interactive portfolio */}
       <div className="flex pt-20 gap-48">
         <img
           src="/images/bunny.gif"

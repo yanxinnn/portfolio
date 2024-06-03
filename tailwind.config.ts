@@ -11,6 +11,7 @@ const config: Config = {
     extend: {
       colors: {
         stone: {
+          450: "#9c9692",
           550: "#68625D",
         },
         neutral: {
