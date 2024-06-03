@@ -1,29 +1,32 @@
 import { ProjectCard } from "@/components/ProjectCard";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="bg-earthy-50 flex flex-col items-center">
+    <div className="bg-[#fef2ec] flex flex-col items-center">
       {/* header */}
-      <div className="font-header  self-stretch flex px-12 py-6">
-        <div className="logo">YJ</div>
+      <div className="header">
+        <Link href="/" className="logo text-earthy-500">
+          YJ
+        </Link>
 
-        <div className="font-medium flex gap-12">
+        <div className="navBar">
           <a>About</a>
-          <a>Work</a>
+          <a>Projects</a>
           <a>Resume</a>
         </div>
       </div>
 
       {/* intro */}
-      <div className="flex pt-16 gap-8 max-w-2xl">
-        <div className="flex flex-col gap-4 pb-4">
-          <h1>Hey, I'm Yanxin (yang-sheen)!</h1>
+      <div className="flex pt-24 gap-12 max-w-[48rem]">
+        <div className="flex flex-col gap-10 pb-4">
+          <h1 className="text-earthy-500">Hey, I'm Yanxin (yang-sheen)!</h1>
 
-          <p className="leading-7 pb-20">
+          <h4 className="pb-32 leading-9">
             A <span className="text-accent">UX Designer and Developer</span>{" "}
             passionate about creating impactful, delightful, and human
             experiences.
-          </p>
+          </h4>
         </div>
 
         <img
@@ -34,19 +37,21 @@ export default function Home() {
       </div>
 
       {/* projects */}
-      <div className="bg-white self-stretch p-16 pb-24">
-        <div className="grid grid-cols-2 max-w-4xl m-auto gap-x-16 gap-y-24">
+      <div className="bg-white self-stretch p-20 pb-28">
+        <div className="grid grid-cols-2 max-w-[62rem] m-auto gap-x-[4.5rem] gap-y-24">
           <ProjectCard
             title="Pypeline"
+            pageLink="pypeline"
             image="images/pypeline.png"
-            backgroundColor="bg-[#D1D8F3]"
+            backgroundColor="bg-[#d1d8f3]"
             tags={["SaaS", "Data Lifecycle Management"]}
             description="A SaaS application empowering data professionals to streamline data lifecycle operations."
           />
           <ProjectCard
             title="Float-it Notes"
-            image="images/floatItNotes.png"
-            backgroundColor="bg-[#BEE6EE]"
+            pageLink="float-it-notes"
+            image="images/floatitNotes.png"
+            backgroundColor="bg-[#bee6ee]"
             tags={["Chrome Extension", "Productivity"]}
             description="A Chrome extension helping students to keep track of their tasks in a stress-free way."
           />
@@ -54,23 +59,30 @@ export default function Home() {
       </div>
 
       {/* link to interactive portfolio */}
-      <div className="pt-16 flex gap-24">
+      <div className="flex pt-20 gap-48">
         <img
           src="/images/bunny.gif"
           alt="A pixelated bunny GIF"
           className="transform object-none self-end bg-auto"
         />
 
-        <div className="flex flex-col">
-          <h3>Got a bit more time to sp-hare?</h3>
-          <button className="bg-yellow-200 p-2">Click me!</button>
+        <div className="flex flex-col gap-5 items-center pb-20">
+          <h2 className="text-earthy-500">Got a bit more time to sp-hare?</h2>
+          <a href="game/home.html">
+            <button className="bg-[#fdd5c1] flex flex-row gap-4">
+              <img src="images/gameIcon.svg"></img>Hop over to my interactive
+              portfolio!
+            </button>
+          </a>
         </div>
       </div>
 
-      <div className="bg-earthy-700 text-white self-stretch flex flex-col items-center py-8 gap-4">
-        <p>yanxinjiang@live.com</p>
+      <div className="bg-earthy-500 text-white self-stretch flex flex-col items-center py-8 gap-4">
+        <p className="underline">yanxinjiang@live.com</p>
 
-        <img src="images/linkedinIcon.svg" />
+        <a href="https://www.linkedin.com/in/yanxinn/" target="_blank">
+          <img src="images/linkedinIcon.svg" alt="Linkedin" />
+        </a>
       </div>
     </div>
   );

@@ -1,0 +1,103 @@
+---
+title: "Float-it Notes"
+description: "Daily Planner Extension"
+backgroundColor1: "#BEE6EE"
+---
+
+# Overview
+
+Float-it Notes is a Chrome extension designed to that help high school and college students stay afloat in the chaos of their daily lives by offering a sanctuary on their New Tab page. Here, they have access to integrated task management tools, daily inspirational quotes, and light-hearted aesthetics, enabling them to stay organized, motivated, and regain a peace of mind.
+
+### I designed and developed a Chrome Extension independently.
+
+This is a solo project in which I conducted user research, designed, and developed the user experience and interface for a browser extension. I plan to release it on the Chrome Web Store in the future!
+
+# Problem
+
+#### High school and college students often struggle with managing multiple responsibilities, resulting in increased stress and adverse effects on their well-being and academic success.
+
+Balancing the demands of academia, employment, meetings, assignments, and deadlines presents a significant challenge for numerous high school and college students. Research consistently shows that individuals in this age bracket endure heightened stress levels as they navigate multiple responsibilities. In this struggle to effectively manage their time and priorities, students often find themselves overwhelmed, leading to increased stress levels that can negatively impact their mental well-being and academic performance.
+
+# Goal
+
+#### - Help students keep track of their school, work, and personal responsibilities in a stress-free way.
+
+# Process
+
+## Interviewing high school and college students
+
+I began this project by conducting interviews with 8 students aged 14-25 to get a better understanding of my targeted demographic’s goals and pain points when it comes to task management.
+
+My initial user research goals were to find out:
+
+- How do they track their tasks?
+- How do they complete their tasks? Do they tackle them all at once or over time?
+- Do they use planners (physical and/or digital) or have had in the past?
+- What are their favorite parts about their current solution?
+- Is there anything about their current solution that is lacking?
+
+The insights from the research findings helped me understand students’ study behaviors, and motives/preferences when choosing planners, and areas where their current solutions fall short. This guided me in addressing specific needs and pain points of my users with my solution.
+
+The main takeaways were:
+
+#### 1. Digital planner usage was the majority.
+
+The majority of students reported using digital planners, with popular choices including Google Calendar, the Notes app, and Trello.
+
+#### 2. The main benefits and pain points of digital planners.
+
+Students mostly valued the accessibility, ease of organization, and reminder features of digital planners. However, their main pain points included the lack of task customization and detailing, an overwhelming amount of unused tools, and lack of sorting/grouping options for subjects.
+
+#### 3. The main benefits and pain points of physical planners.
+
+Students who preferred physical planners mostly valued the flexibility they offered in adding creative non-text elements and customizing formatting to their liking. Their main pain points included difficulties in organization, editing/reformatting, and lack of accessibility.
+
+#### 4. Students had mixed task completion styles.
+
+There was no definitive agreement on how students completed tasks. Some were procrastinators, others preferred completing tasks as soon as possible, and some divided their efforts over time. However even those who identified with a particular style noted that their approach often depended on various factors, such as the task’s scope, importance, their level of interest, and their work capacity.
+
+## Analyzing other productivity extensions
+
+I conducted research on several popular Chrome extension competitors that take over the New Tab page, with a majority of them emphasizing productivity features.
+
+This analysis allowed me to identify commonalities among existing solutions and pinpoint areas where they failed to address the pain points discovered in my user interviews. This also helped me identify opportunities for Float-it Notes to bridge the gap and provide a better user experience.
+
+## Prioritizing features for the Senior Capstone Exhibition
+
+Based on my findings from user interviews and competitor analysis, I identified key features that users value in a planner/task manager. These insights guided the development of Float-it Notes, ensuring that it fulfilled user needs as a digital planner while also incorporating unique features that differentiate it from competitors.
+
+I utilized the MoSCoW method to prioritize certain features to be completed in time for my Undergrad Senior Capstone Project Gallery Exhibition but plan to implement more features before releasing my extension onto the Chrome App Store.
+
+## Designing a unique and cohesive user interface
+
+Next, I planned out the layout for Float-it Notes, incorporating features prioritized using the MoSCoW method.
+
+I envisioned a simple interface that centered around the user’s tasks, providing gentle reminders and task management tools each time they open a New Tab page throughout the day, without overwhelming them.
+
+To achieve this, I chose a serene lake scene as the background for my extension. In order to ensure that the presentation of user-created tasks made sense within the context of the environment, I decided to display tasks as bottles floating in the lake. This added a unique and playful touch while maintaining coherence between the tasks and their surroundings. Additionally, it provided a creative visual indicator of the number of tasks through the quantity of bottles, and their progress by how filled the bottles are.
+
+I used illustration tools such as Adobe Photoshop and Medibang Paint to create the various UI assets, such as hand-drawn task bottles and waterscape background.
+
+Additionally, I sketched wireframes for the forms and modals required for task creation, previewing, viewing, and editing, blocking out the fields and sections required for each.
+
+## Developing an interactive prototype
+
+With the designs and UI components ready, I started developing the first prototype of Float-it Notes using JavaScript and HTML/CSS.
+
+Developing this Chrome extension has been a great opportunity to practice and refine my coding and researching skills. While I have created quick extensions in the past, a long-term project like this allowed me to explore new areas, such as working with forms and more complex user interactions. It’s been satisfying and gratifying to see something I both designed and developed gradually come to fruition and I’m looking forward to continuing this journey of growth and progress.
+
+# Next Steps
+
+This project has been incredibly enjoyable and rewarding as it allows me to put both my design and development skills to the test. Here are my future plans for Float-it Notes:
+
+#### 1. Refining graphics and cleaning up code.
+
+Now that the deadline of the Senior Capstone Exhibition is behind me, I have more time to refine extension’s UI and codebase. My immediate priorities are polishing up graphics and completing implementation of data storage via Google account before releasing the first public version.
+
+#### 2. Publishing Float-it Notes!
+
+The big moment where I share my passion project with the world! :)
+
+#### 3. Adding continuous improvements.
+
+After the extension is released with all of its core features of being a functional task tracker, I plan to build in the remaining MoSCoW items and make further improvements as I receive more user feedback.

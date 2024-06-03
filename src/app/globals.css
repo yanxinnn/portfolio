@@ -10,21 +10,47 @@
     @apply text-stone-550;
   }
 
+  /* page title */
   h1 {
-    @apply font-header font-bold text-earthy-500 text-3xl leading-10;
+    @apply font-header font-bold text-4xl leading-10;
   }
 
+  /* project card title */
+  h2 {
+    @apply font-header text-2xl font-medium;
+  }
+
+  /* project card tag */
   h3 {
-    @apply font-header text-xl font-medium;
+    @apply px-3 tracking-wider text-sm font-body uppercase text-stone-500 font-medium leading-7;
+  }
+
+  /* page subtitle */
+  h4 {
+    @apply font-body text-xl;
   }
 
   p {
-    @apply font-body leading-7 font-normal;
+    @apply font-body leading-8 font-normal text-lg;
+  }
+
+  button {
+    @apply font-body font-medium text-lg rounded-lg py-4 px-5;
+  }
+
+  ::selection {
+    @apply bg-neutral-600 text-white;
   }
 }
 
 @layer components {
+  .header {
+    @apply font-header self-stretch flex px-12 py-6;
+  }
+  .navBar {
+    @apply font-medium flex gap-12 text-lg;
+  }
   .logo {
-    @apply font-bold grow text-2xl text-earthy-500;
+    @apply font-bold grow text-2xl;
   }
 }

@@ -2,9 +2,10 @@ import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.*",
+    // "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    // "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    // "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -27,9 +28,7 @@ const config: Config = {
           800: "#331f1c",
           900: "#1a0703",
         },
-        accent: {
-          DEFAULT: "#E3536D",
-        },
+        accent: "#E3536D",
       },
       fontFamily: {
         header: ['"Space Grotesk"', "sans-serif"],
