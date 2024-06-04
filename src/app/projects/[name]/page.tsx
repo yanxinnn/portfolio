@@ -7,15 +7,13 @@ import Link from "next/link";
 type PageProps = {
   params: {
     name: string;
-    description: string;
-    backgroundColor1: string;
   };
 };
 
 type PageMeta = {
   title: string;
   description: string;
-  backgroundColor1: string;
+  backgroundColor: string;
 };
 
 export default async function Page(props: PageProps) {
@@ -25,14 +23,30 @@ export default async function Page(props: PageProps) {
       "src",
       "projects",
       props.params.name
-    ).concat(".md");
+    ).concat(".mdx");
     const file = readFileSync(path);
     const text = file.toString("utf8");
 
     const { content, frontmatter } = await compileMDX<PageMeta>({
       source: text,
       components: {
-        h2: (props) => <h2 className="font-body">{props.children}</h2>,
+        h1: (props) => (
+          <h1 className="font-medium text-[2rem] inline-block mt-12">
+            {props.children}
+            <div
+              className="h-[0.3125rem] w-full mt-0.5 mb-6"
+              style={{ backgroundColor: frontmatter.backgroundColor }}
+            ></div>
+          </h1>
+        ),
+        h2: (props) => (
+          <p className="text-2xl font-semibold pt-8 pb-6">{props.children}</p>
+        ),
+        h3: (props) => (
+          <p className="text-2xl text-center py-8 leading-9 font-medium mx-16">
+            {props.children}
+          </p>
+        ),
       },
       options: {
         parseFrontmatter: true,
@@ -40,12 +54,12 @@ export default async function Page(props: PageProps) {
     });
 
     return (
-      <div className="flex flex-col gap-12">
+      <div className="flex flex-col">
         {/* Header */}
         <div>
           <div
             className="header"
-            style={{ backgroundColor: frontmatter.backgroundColor1 }}
+            style={{ backgroundColor: frontmatter.backgroundColor }}
           >
             <Link href="/" className="logo">
               YJ
@@ -54,30 +68,34 @@ export default async function Page(props: PageProps) {
 
           {/* Project banner */}
           <div
-            className="flex flex-wrap justify-center items-center gap-16 pb-32"
-            style={{ backgroundColor: frontmatter.backgroundColor1 }}
+            className="flex flex-wrap justify-center items-center gap-16 pb-32 px-12"
+            style={{ backgroundColor: frontmatter.backgroundColor }}
           >
             <div className="flex flex-col gap-4 max-w-60">
               <h1>{frontmatter.title as string}</h1>
               <p>{frontmatter.description as string}</p>
             </div>
-            <img src="/images/pypeline.png" className="object-none"></img>
+            <img
+              src="/images/pypeLine/pypeLine0.png"
+              className="object-contain"
+            ></img>
           </div>
         </div>
 
         {/* Project stats */}
-        <div className="flex flex-wrap gap-x-16 gap-y-6 w-fit place-self-center -mt-24 bg-white items-center py-5 px-6 shadow-md rounded-lg">
+        <div className="flex flex-wrap gap-x-16 gap-y-6 w-fit place-self-center -mt-24 bg-white items-center py-5 px-6 shadow-md rounded-lg mx-12">
           <div className="flex flex-col gap-2 max-w-[12rem]">
             <h3 className="projectStatsLabel">My Role</h3>
             <p className="projectStatsText">
-              UX Designer, <br></br>Front-end Developer
+              UX Designer, <br />
+              Front-end Developer
             </p>
           </div>
 
           <div className="flex flex-col gap-2 self-start max-w-[13rem]">
             <h3 className="projectStatsLabel">Team</h3>
             <p className="projectStatsText">
-              3 product managers, <br></br>1 designer, 17+ engineers
+              3 product managers, <br />1 designer, 17+ engineers
             </p>
           </div>
 
@@ -90,7 +108,8 @@ export default async function Page(props: PageProps) {
         </div>
 
         {/* Project dependent content */}
-        <div className="max-w-[56rem] self-center">{content}</div>
+        <div className="*:px-[max(calc((100%-56rem)/2),_3rem)]">{content}</div>
+        {/* <div className="max-w-[56rem] mx-12 self-center">{content}</div> */}
       </div>
     );
   } catch {
@@ -102,7 +121,7 @@ export default async function Page(props: PageProps) {
 export function generateStaticParams() {
   const path = join(process.cwd(), "src", "projects");
   return readdirSync(path)
-    .map((project) => project.replace(".md", ""))
+    .map((project) => project.replace(".mdx", ""))
     .map((project) => ({
       name: project,
     }));

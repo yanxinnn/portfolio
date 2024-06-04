@@ -18,7 +18,7 @@ export default function Home() {
       </div>
 
       {/* Intro */}
-      <div className="flex pt-24 gap-12 max-w-[48rem]">
+      <div className="flex flex-row pt-24 gap-12 max-w-[48rem] mx-12">
         <div className="flex flex-col gap-10 pb-4">
           <h1 className="text-earthy-500">Hey, I'm Yanxin (yang-sheen)!</h1>
 
@@ -37,12 +37,12 @@ export default function Home() {
       </div>
 
       {/* Projects */}
-      <div className="bg-white self-stretch p-20 pb-28">
+      <div className="bg-white self-stretch pt-20 pb-28 px-12">
         <div className="grid grid-cols-2 max-w-[62rem] m-auto gap-x-[4.5rem] gap-y-24">
           <ProjectCard
             title="Pypeline"
             pageLink="pypeline"
-            image="images/pypeline.png"
+            image="images/pypeLine/pypeLine0.png"
             backgroundColor="bg-[#d1d8f3]"
             tags={["SaaS", "Data Lifecycle Management"]}
             description="A SaaS application empowering data professionals to streamline data lifecycle operations."
@@ -50,7 +50,7 @@ export default function Home() {
           <ProjectCard
             title="Float-it Notes"
             pageLink="float-it-notes"
-            image="images/floatitNotes.png"
+            image="images/floatitNotes/floatitNotes0.png"
             backgroundColor="bg-[#bee6ee]"
             tags={["Chrome Extension", "Productivity"]}
             description="A Chrome extension helping students to keep track of their tasks in a stress-free way."
@@ -59,7 +59,7 @@ export default function Home() {
       </div>
 
       {/* Link to interactive portfolio */}
-      <div className="flex pt-20 gap-48">
+      <div className="flex flex-row pt-20 gap-48 mx-12">
         <img
           src="/images/bunny.gif"
           alt="A pixelated bunny GIF"
