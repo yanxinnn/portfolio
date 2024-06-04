@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { join } from "path";
 import { compileMDX } from "next-mdx-remote/rsc";
 import Link from "next/link";
+import { ImageContainer } from "@/components/ImageContainer";
 
 type PageProps = {
   params: {
@@ -40,13 +41,19 @@ export default async function Page(props: PageProps) {
           </h1>
         ),
         h2: (props) => (
-          <p className="text-2xl font-semibold pt-8 pb-6">{props.children}</p>
+          <p className="text-2xl font-semibold pt-10 pb-6">{props.children}</p>
         ),
         h3: (props) => (
           <p className="text-2xl text-center py-8 leading-9 font-medium mx-16">
             {props.children}
           </p>
         ),
+        ul: (props) => (
+          <ul className="list-disc *:ml-12 font-body leading-8 font-normal text-lg">
+            {props.children}
+          </ul>
+        ),
+        ImageContainer,
       },
       options: {
         parseFrontmatter: true,
@@ -77,13 +84,13 @@ export default async function Page(props: PageProps) {
             </div>
             <img
               src="/images/pypeLine/pypeLine0.png"
-              className="object-contain"
+              className="max-w-[32rem]"
             ></img>
           </div>
         </div>
 
         {/* Project stats */}
-        <div className="flex flex-wrap gap-x-16 gap-y-6 w-fit place-self-center -mt-24 bg-white items-center py-5 px-6 shadow-md rounded-lg mx-12">
+        <div className="flex flex-wrap gap-x-16 gap-y-6 w-fit place-self-center -mt-12 bg-white items-center py-5 px-6 shadow-md rounded-lg mx-12">
           <div className="flex flex-col gap-2 max-w-[12rem]">
             <h3 className="projectStatsLabel">My Role</h3>
             <p className="projectStatsText">
@@ -109,7 +116,6 @@ export default async function Page(props: PageProps) {
 
         {/* Project dependent content */}
         <div className="*:px-[max(calc((100%-56rem)/2),_3rem)]">{content}</div>
-        {/* <div className="max-w-[56rem] mx-12 self-center">{content}</div> */}
       </div>
     );
   } catch {

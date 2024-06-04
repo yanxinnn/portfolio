@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Yanxin Jiang Portfolio",
-  icons: "favicon.ico",
+  icons: "/favicon.ico",
 };
 
 export default function RootLayout({

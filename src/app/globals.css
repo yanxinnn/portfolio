@@ -62,16 +62,4 @@
   .projectColorBlock {
     @apply bg-[#D9DDE1] h-fit pb-12 mx-0 mt-12;
   }
-  .imageContainer {
-    @apply flex flex-col gap-4 items-center pt-2 pb-6;
-  }
-  .imageContainerDouble {
-    @apply flex flex-row gap-4 justify-center items-end;
-  }
-  .imageBordered {
-    @apply rounded-lg border border-[#D9DDE1];
-  }
-  .imageCaption p {
-    @apply font-body italic text-sm font-medium text-stone-400;
-  }
 }

@@ -35,12 +35,7 @@ in managing their data lifecycles.**
 
 # Process
 
-<div className="imageContainer">
-  <img src="/images/pypeLine/pypeline1.png" className="imageBordered" />
-  <div className="imageCaption">
-    <p>Various notes from brainstorming sessions and user testing</p>
-  </div>
-</div>
+<ImageContainer images={["/images/pypeLine/pypeLine1.png"]} description="Various notes from brainstorming sessions and user testing" imageBordered />
 
 ## Defining objectives with the product team
 
@@ -81,15 +76,10 @@ User testing feedback helped improve the intuitiveness, discoverability, and nec
 of features. An example of these iterations is the UI of nodes in the sandbox:
 
 <br />
-Each node represents a step in the overall workflow:
+Each node represents a step in the overall workflow.
 
 <br />
-<div className="imageContainer">
-  <img src="/images/pypeLine/pypeline2.png" className="imageBordered" />
-  <div className="imageCaption">
-    <p>Example of the sandbox with one node</p>
-  </div>
-</div>
+<ImageContainer images={["/images/pypeLine/pypeLine2.png"]} description="Example of the sandbox with one node" imageBordered />
 
 <br />
 Double clicking on a node opens up a modal that shows the details of that transformation
@@ -97,12 +87,7 @@ Double clicking on a node opens up a modal that shows the details of that transf
 the right).
 
 <br />
-<div className="imageContainer">
-  <img src="/images/pypeLine/pypeline3.png" className="imageBordered" />
-  <div className="imageCaption">
-    <p>Example of the “Join” node modal</p>
-  </div>
-</div>
+<ImageContainer images={["/images/pypeLine/pypeLine3.png"]} description="Example of the “Join” node modal" imageBordered />
 
 <br />
 Some nodes, like the “Join” node, offer multiple types of operations within it. The
@@ -130,19 +115,9 @@ type. This quality of life improvement was widely appreciated by test users and 
 enhanced their experience.
 
 <br />
-<div className="imageContainerDouble gap-20">
-  <div className="imageContainer">
-    <img src="/images/pypeLine/pypeline4.png" />
-    <div className="imageCaption">
-      <p>Example of the “Join” node modal</p>
-    </div>
-  </div>
-  <div className="imageContainer">
-    <img src="/images/pypeLine/pypeline5.png" />
-    <div className="imageCaption">
-      <p>Example of the “Join” node modal</p>
-    </div>
-  </div>
+<div className="flex flex-wrap gap-x-20 gap-y-4 justify-center items-end">
+  <ImageContainer images={["/images/pypeLine/pypeLine4.svg"]} description="Previous node UI" />
+  <ImageContainer images={["/images/pypeLine/pypeLine5.svg"]} description="New node UI" />
 </div>
 
 <br />
@@ -158,21 +133,7 @@ I was able to refine the data table designs so users could quickly locate import
 metrics and actions while minimizing cognitive overload.
 
 <br />
-<div className="imageContainer">
-  <div className="self-stretch grid auto-cols-fr grid-flow-col gap-4">
-    <img
-      src="/images/pypeLine/pypeline6.png"
-      className="imageBordered flex-1 object-contain"
-    />
-    <img
-      src="/images/pypeLine/pypeline7.png"
-      className="imageBordered flex-1 object-contain"
-    />
-  </div>
-  <div className="imageCaption">
-    <p>Final designs for “Pypelines” and “Files” screens</p>
-  </div>
-</div>
+<ImageContainer images={["/images/pypeLine/pypeLine6.png", "/images/pypeLine/pypeLine7.png"]} description="Final designs for “Pypelines” and “Files” screens" imageBordered />
 
 ## Facilitating the design-to-development process
 
@@ -212,30 +173,32 @@ design and development aspects of the project.
 
 Working on this project was an incredible experience that greatly contributed to my growth and development as a designer and developer. Here are my top 3 takeaways!
 
-<br />
-**1. Taking ownership and foster a UX design culture.** As the sole designer on the
-team, I developed my leadership abilities by taking ownership of the designs and
+## 1. Taking ownership and fostering a UX design culture.
+
+As the sole designer on the team, I developed my leadership abilities by taking ownership of the designs and
 promoting inclusivity, collective ownership, and open communication within the team.
 This involved:
 
+<br />
 - Educating and advocating for the adoption of best UX practices throughout the organization through presentations, one-on-one conversations, and clear design specifications and documentation.
 - Promoting cross-functional team collaborations early in the design process to make sure needs of all stakeholders were accounted for.
 - Ensuring regular communication and feedback sessions with cross-functional team members throughout the design process.
 
-<br />
-**2. Creating and maintaining design system.** My experience as the founding designer
-for this project provided me with invaluable insights into creating and managing
+## 2. Creating and maintaining a design system.
+
+My experience as the founding designer for this project provided me with invaluable insights into creating and managing
 a consistent and scalable design system, along with an understanding of the challenges
 and complexities involved. Through hands-on experience and continuous learning, I
 learned to prioritize:
 
+<br />
 - Following best practices for design system management.
 - Conducting regular audits and reviews to ensure design system’s consistency and effectiveness.
 - Staying up to date on new tools and technologies to enhance efficiency in both design and development processes.
 
-<br />
-**3. Adapting to evolving business requirements.** Throughout the project, one of
-the key challenges our team faced was adjusting to the dynamic nature of business
+## 3. Adapting to evolving business requirements.
+
+Throughout the project, one of the key challenges our team faced was adjusting to the dynamic nature of business
 requirements. As the project progressed, we encountered multiple instances where
 business priorities shifted or stakeholders introduced additional requirements that
 required adjustments to the design direction and feature prioritization. This experience
@@ -243,6 +206,10 @@ highlighted the importance of effective team communication and setting clear obj
 and timelines at the start of each sprint, while also remaining flexible to changing
 circumstances.
 
-<div className="projectColorBlock" style={{ backgroundColor: "#EDEFFA" }}>
-  <img src="" />
+<div className="projectColorBlock pb-0 pl-0" style={{ backgroundColor: "#EDEFFA" }}>
+  <img src="/images/pypeLine/pypeLine8.png" className="bg-cover" />
+</div>
+
+<div>
+  <a href="">Next</a>
 </div>
