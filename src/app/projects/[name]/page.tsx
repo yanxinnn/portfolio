@@ -57,6 +57,9 @@ export default async function Page(props: PageProps) {
             {props.children}
           </p>
         ),
+        h4: (props) => (
+          <p className="text-2xl font-semibold pb-6">{props.children}</p>
+        ),
         ul: (props) => (
           <ul className="list-disc *:ml-12 font-body leading-8 font-normal text-lg">
             {props.children}

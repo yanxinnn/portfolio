@@ -42,7 +42,7 @@ export default function Home() {
           <ProjectCard
             title="Pypeline"
             pageLink="pypeline"
-            image="images/pypeLine/pypeLine0.png"
+            image="images/pypeLine/pypeLine.png"
             backgroundColor="bg-[#d1d8f3]"
             tags={["SaaS", "Data Lifecycle Management"]}
             description="A SaaS application empowering data professionals to streamline data lifecycle operations."
@@ -50,7 +50,7 @@ export default function Home() {
           <ProjectCard
             title="Float-it Notes"
             pageLink="float-it-notes"
-            image="images/floatitNotes/floatitNotes0.png"
+            image="images/floatitNotes/floatitNotes.png"
             backgroundColor="bg-[#bee6ee]"
             tags={["Chrome Extension", "Productivity"]}
             description="A Chrome extension helping students to keep track of their tasks in a stress-free way."
