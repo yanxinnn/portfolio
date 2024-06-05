@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 type ProjectCardProps = {
   title: string;
   pageLink: string;
@@ -9,14 +11,14 @@ type ProjectCardProps = {
 
 export function ProjectCard(props: ProjectCardProps) {
   return (
-    <a href={"projects/" + props.pageLink}>
+    <Link href={"projects/" + props.pageLink}>
       <div className="flex flex-col gap-5">
-        {/* project image */}
+        {/* Project image */}
         <div className={`${props.backgroundColor} flex rounded-xl h-[22.5rem]`}>
           <img src={props.image} className="object-contain px-10" />
         </div>
 
-        {/* title and tags */}
+        {/* Title and tags */}
         <div className="flex flex-col gap-3">
           <h2>{props.title}</h2>
 
@@ -29,9 +31,9 @@ export function ProjectCard(props: ProjectCardProps) {
           </div>
         </div>
 
-        {/* description */}
+        {/* Description */}
         <p>{props.description}</p>
       </div>
-    </a>
+    </Link>
   );
 }

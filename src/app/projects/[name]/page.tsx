@@ -4,6 +4,7 @@ import { join } from "path";
 import { compileMDX } from "next-mdx-remote/rsc";
 import Link from "next/link";
 import { ImageContainer } from "@/components/ImageContainer";
+import { ProjectBotNav } from "@/components/projectBotNav";
 
 type PageProps = {
   params: {
@@ -15,6 +16,14 @@ type PageMeta = {
   title: string;
   description: string;
   backgroundColor: string;
+  topBannerImage: string;
+  bottomBannerImage: string;
+  bottomBannerImageSpecs?: string;
+
+  prevProjectName: string;
+  prevProjectLink: string;
+  nextProjectName: string;
+  nextProjectLink: string;
 };
 
 export default async function Page(props: PageProps) {
@@ -83,7 +92,7 @@ export default async function Page(props: PageProps) {
               <p>{frontmatter.description as string}</p>
             </div>
             <img
-              src="/images/pypeLine/pypeLine0.png"
+              src={frontmatter.topBannerImage}
               className="max-w-[32rem]"
             ></img>
           </div>
@@ -115,7 +124,27 @@ export default async function Page(props: PageProps) {
         </div>
 
         {/* Project dependent content */}
-        <div className="*:px-[max(calc((100%-56rem)/2),_3rem)]">{content}</div>
+        <div className="*:px-[max(calc((100%-56rem)/2),_3rem)] pb-16">
+          {content}
+        </div>
+
+        {/* Bottom banner */}
+        <div
+          className={`flex justify-center ${
+            frontmatter.bottomBannerImageSpecs ?? ""
+          }`}
+          style={{ backgroundColor: frontmatter.backgroundColor }}
+        >
+          <img src={frontmatter.bottomBannerImage} />
+        </div>
+
+        {/* Project bottom navigation bar */}
+        <ProjectBotNav
+          prevProjectName={frontmatter.prevProjectName}
+          prevProjectLink={frontmatter.prevProjectLink}
+          nextProjectName={frontmatter.nextProjectName}
+          nextProjectLink={frontmatter.nextProjectLink}
+        />
       </div>
     );
   } catch {

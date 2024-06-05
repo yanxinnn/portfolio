@@ -8,7 +8,7 @@ export function ImageContainer(props: ImageContainerProps) {
   return (
     <div className="flex flex-col gap-4 items-center pt-2 pb-6">
       <div className="self-stretch grid grid-flow-col gap-4 place-content-center">
-        {/* project image */}
+        {/* Project image */}
         {props.images.map((image) => (
           <img
             key={image}
@@ -16,11 +16,12 @@ export function ImageContainer(props: ImageContainerProps) {
             className={
               props.imageBordered ? "rounded-lg border border-[#D9DDE1]" : ""
             }
+            alt={props.description}
           />
         ))}
       </div>
 
-      {/* description */}
+      {/* Description */}
       {props.description && (
         <p className="font-body italic text-sm font-medium text-stone-400">
           {props.description}

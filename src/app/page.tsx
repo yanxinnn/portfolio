@@ -68,21 +68,21 @@ export default function Home() {
 
         <div className="flex flex-col gap-5 items-center pb-20">
           <h2 className="text-earthy-500">Got a bit more time to sp-hare?</h2>
-          <a href="game/home.html">
+          <Link href="game/home.html">
             <button className="bg-[#fdd5c1] flex flex-row gap-4">
               <img src="images/gameIcon.svg"></img>Hop over to my interactive
               portfolio!
             </button>
-          </a>
+          </Link>
         </div>
       </div>
 
       <div className="bg-earthy-500 text-white self-stretch flex flex-col items-center py-8 gap-4">
         <p className="underline">yanxinjiang@live.com</p>
 
-        <a href="https://www.linkedin.com/in/yanxinn/" target="_blank">
+        <Link href="https://www.linkedin.com/in/yanxinn/" target="_blank">
           <img src="images/linkedinIcon.svg" alt="Linkedin" />
-        </a>
+        </Link>
       </div>
     </div>
   );
