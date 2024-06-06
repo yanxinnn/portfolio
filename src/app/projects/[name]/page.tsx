@@ -5,6 +5,7 @@ import { compileMDX } from "next-mdx-remote/rsc";
 import Link from "next/link";
 import { ImageContainer } from "@/components/ImageContainer";
 import { ProjectBotNav } from "@/components/projectBotNav";
+import { ArrowUpIcon } from "@/components/icons/arrowUpIcon";
 
 type PageProps = {
   params: {
@@ -139,6 +140,11 @@ export default async function Page(props: PageProps) {
           style={{ backgroundColor: frontmatter.backgroundColor }}
         >
           <img src={frontmatter.bottomBannerImage} />
+        </div>
+
+        {/* Scroll to top of page button */}
+        <div className="fixed">
+          <ArrowUpIcon />
         </div>
 
         {/* Project bottom navigation bar */}

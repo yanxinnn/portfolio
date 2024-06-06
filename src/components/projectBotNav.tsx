@@ -14,7 +14,7 @@ export function ProjectBotNav(props: ProjectBotNavProps) {
       {/* Previous project */}
       {props.prevProjectLink && (
         <Link href={props.prevProjectLink} className="group">
-          <div className="flex flex-row gap-4 group-hover:text-lightAccent-300">
+          <div className="flex flex-row gap-4 items-center group-hover:text-lightAccent-300">
             <ArrowIcon className="transform scale-[-1] group-hover:fill-lightAccent-300" />
             <div className="flex flex-col text-left">
               <p>Previous</p>
@@ -29,7 +29,7 @@ export function ProjectBotNav(props: ProjectBotNavProps) {
       {/* Next project */}
       {props.nextProjectLink && (
         <Link href={props.nextProjectLink} className="group">
-          <div className="flex flex-row gap-4 group-hover:text-lightAccent-300">
+          <div className="flex flex-row gap-4 items-center group-hover:text-lightAccent-300">
             <div className="flex flex-col text-right">
               <p>Next</p>
               <h2>{props.nextProjectName}</h2>
