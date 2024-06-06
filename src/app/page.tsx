@@ -1,5 +1,7 @@
-import { ProjectCard } from "@/components/ProjectCard";
 import Link from "next/link";
+import { ProjectCard } from "@/components/ProjectCard";
+import { LinkedinIcon } from "@/components/icons/LinkedinIcon";
+import { GameIcon } from "@/components/icons/gameIcon";
 
 export default function Home() {
   return (
@@ -10,10 +12,12 @@ export default function Home() {
           YJ
         </Link>
 
+        <div className="grow"></div>
+
         <div className="navBar">
-          <a>About</a>
+          {/* <a>About</a>
           <a>Projects</a>
-          <a>Resume</a>
+          <a>Resume</a> */}
         </div>
       </div>
 
@@ -69,21 +73,34 @@ export default function Home() {
         <div className="flex flex-col gap-5 items-center pb-20">
           <h2 className="text-earthy-500">Got a bit more time to sp-hare?</h2>
           <Link href="game/home.html">
-            <button className="bg-[#fdd5c1] flex flex-row gap-4">
-              <img src="images/gameIcon.svg"></img>Hop over to my interactive
-              portfolio!
+            <button className="flex flex-row gap-4">
+              <GameIcon />
+              Check out my interactive portfolio!
             </button>
           </Link>
         </div>
       </div>
 
-      <div className="bg-earthy-500 text-white self-stretch flex flex-col items-center py-8 gap-4">
-        <p className="underline">yanxinjiang@live.com</p>
+      <div className="bg-earthy-500 self-stretch text-white flex justify-center py-3">
+        <div className="font-body font-normal text-base">
+          Coded with ❤ by Yanxin Jiang
+        </div>
+      </div>
+
+      {/* Footer with contact info */}
+      {/* <div className="bg-earthy-500 text-white self-stretch flex flex-col items-center py-8 gap-4">
+        <Link
+          href="mailto:yanxinjiang@live.com"
+          target="_blank"
+          className="underline font-body leading-8 font-normal text-lg hover:text-lightAccent-100"
+        >
+          yanxinjiang@live.com
+        </Link>
 
         <Link href="https://www.linkedin.com/in/yanxinn/" target="_blank">
-          <img src="images/linkedinIcon.svg" alt="Linkedin" />
+          <LinkedinIcon />
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 }

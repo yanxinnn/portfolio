@@ -12,6 +12,7 @@ body {
   cursor: url(images/icon-daisy2.png), default;
   touch-action: manipulation;
   -webkit-touch-callout: none; /* Prevent callout menu */
+  font-family: "JetBrains Mono", sans-serif;
 }
 
 *,
@@ -73,7 +74,7 @@ button {
   gap: 1.25rem;
   align-items: center;
   justify-content: center;
-  height: 50%;
+  height: 40%;
 }
 
 .menuButtons button {
@@ -95,6 +96,21 @@ button {
   cursor: url(images/icon-daisy3.png), pointer;
   background-color: var(--color-lightpink);
   border: 4px rgb(204, 144, 154) solid;
+}
+
+.portfolioLink {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: center;
+  color: #3d3939;
+  position: fixed;
+  bottom: 0;
+  align-items: center;
+  background-color: rgb(255, 199, 208);
+  width: 100%;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .backgroundImage {
@@ -321,7 +337,7 @@ input#sound:checked ~ .off img {
   user-select: none;
 }
 
-/* ********** Play ********** */
+/* ********** Field ********** */
 #welcomeMessageContainer {
   position: absolute;
   display: flex;
@@ -963,13 +979,12 @@ input#sound:checked ~ .off img {
 /* ********** Other ********** */
 a:link,
 a:visited {
-  color: #ffffff;
+  color: #4e4a4a;
   background-color: transparent;
-  text-decoration: none;
-  font-family: "silkscreennormal";
-  font-weight: normal;
+  font-family: "JetBrains Mono", sans-serif;
+  font-weight: 600;
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 a:hover {
@@ -980,11 +995,9 @@ a:hover,
 a:active {
   color: #8a8a8a;
   background-color: transparent;
-  text-decoration: none;
-  font-family: "silkscreennormal";
   font-weight: normal;
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: 1rem;
   transition: 0.4s;
 }
 
@@ -1020,7 +1033,7 @@ a:active {
 
 /* Media Widths */
 @media (max-width: 1400px) {
-  /* Play */
+  /* Field */
   .projectCardsSection {
     flex-direction: column;
   }
@@ -1030,7 +1043,7 @@ a:active {
 }
 
 @media (max-width: 1300px) {
-  /* Play */
+  /* Field */
   #locationMessage {
     display: flex;
     justify-content: center;
@@ -1045,7 +1058,7 @@ a:active {
 }
 
 @media (max-width: 1000px) {
-  /* Play */
+  /* Field */
   #slideshowContainer {
     padding-left: 0;
     padding-right: 0;
@@ -1126,7 +1139,7 @@ a:active {
   .menuButtons button {
     width: 16rem;
   }
-  /* Play */
+  /* Field */
   #backToTeleportersLink {
     max-width: 250px;
   }
@@ -1146,7 +1159,7 @@ a:active {
 }
 
 @media (max-width: 500px) {
-  /* Play */
+  /* Field */
   #slideshowContainer {
     padding-top: 1.5rem;
     gap: 0.75rem;
@@ -1206,7 +1219,7 @@ a:active {
   .websiteBanner {
     gap: 0.5rem;
   }
-  /* Play */
+  /* Field */
   #slideshowContainer {
     padding-top: 1.5rem;
     gap: 0.75rem;

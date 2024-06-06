@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ArrowIcon } from "./icons/arrowIcon";
 
 type ProjectBotNavProps = {
   prevProjectName?: string;
@@ -12,9 +13,9 @@ export function ProjectBotNav(props: ProjectBotNavProps) {
     <div className="flex flex-row h-36 items-center px-16">
       {/* Previous project */}
       {props.prevProjectLink && (
-        <Link href={props.prevProjectLink}>
-          <div className="flex flex-row gap-4">
-            <img src="/images/arrowIcon.svg" className="transform scale-[-1]" />
+        <Link href={props.prevProjectLink} className="group">
+          <div className="flex flex-row gap-4 group-hover:text-lightAccent-300">
+            <ArrowIcon className="transform scale-[-1] group-hover:fill-lightAccent-300" />
             <div className="flex flex-col text-left">
               <p>Previous</p>
               <h2>{props.prevProjectName}</h2>
@@ -27,13 +28,13 @@ export function ProjectBotNav(props: ProjectBotNavProps) {
 
       {/* Next project */}
       {props.nextProjectLink && (
-        <Link href={props.nextProjectLink}>
-          <div className="flex flex-row gap-4">
+        <Link href={props.nextProjectLink} className="group">
+          <div className="flex flex-row gap-4 group-hover:text-lightAccent-300">
             <div className="flex flex-col text-right">
               <p>Next</p>
               <h2>{props.nextProjectName}</h2>
             </div>
-            <img src="/images/arrowIcon.svg" />
+            <ArrowIcon className="group-hover:fill-lightAccent-300" />
           </div>
         </Link>
       )}

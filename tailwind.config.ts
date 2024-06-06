@@ -25,6 +25,11 @@ const config: Config = {
           900: "#1a0703",
         },
         accent: "#E3536D",
+        lightAccent: {
+          100: "#F2CCC5",
+          200: "#ECB6AC",
+          300: "#E68777",
+        },
       },
       fontFamily: {
         header: ['"Space Grotesk"', "sans-serif"],

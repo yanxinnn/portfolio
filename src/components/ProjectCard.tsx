@@ -11,11 +11,14 @@ type ProjectCardProps = {
 
 export function ProjectCard(props: ProjectCardProps) {
   return (
-    <Link href={"projects/" + props.pageLink}>
+    <Link href={"projects/" + props.pageLink} className="group">
       <div className="flex flex-col gap-5">
         {/* Project image */}
         <div className={`${props.backgroundColor} flex rounded-xl h-[22.5rem]`}>
-          <img src={props.image} className="object-contain px-10" />
+          <img
+            src={props.image}
+            className="object-contain px-10 group-hover:scale-[1.08] transition ease-in-out"
+          />
         </div>
 
         {/* Title and tags */}

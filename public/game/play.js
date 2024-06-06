@@ -234,7 +234,7 @@ function setup() {
   $(".loaderWrapper").fadeOut(400, "linear");
 
   var canvas = createCanvas(window.innerWidth, window.innerHeight);
-  canvas.parent("play-div");
+  canvas.parent("field-div");
   canvas.position(0, 0);
   canvas.style("z-index", "-1");
 

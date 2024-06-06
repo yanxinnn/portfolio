@@ -94,28 +94,28 @@ export const pypelineSlides = [
 ];
 export const pypelineTitles = ["About", "About"];
 export const pypelineDescriptions = [
-  "Pypeline is a SaaS enterprise application designed to empower data professionals, enabling them to optimize data processes, automate tasks, and drive efficiency in data acquisition and processing. This project aims to enhance the user experience in managing, cleaning, and transforming data through an intuitive, no-code platform.<br><br>As the sole designer on the Pypeline team, I oversaw all aspect of the end-to-end UX design process, from inception to public launch. I collaborated with a diverse global team of 15+ professionals, including product managers, software developers, data scientists, and DevOps engineers, to ensure the seamless delivery of a user-centric and visually compelling product.<br><br>\
-  <div class='projectCardsSection'><div class='projectCards'><div class='projectCardsTitle'>Product</div>SaaS, B2B, Enterprise, FinTech, Data Lifecycle Management</div>\
-  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>UX Design, UX Research, UI Design, Front-end Development, Product Design</div>\
-  <div class='projectCards'><div class='projectCardsTitle'>Technologies</div>Figma, JavaScript (JSX, React), HTML/CSS, Bitbucket, JIRA</div></div><br>\
+  "Pypeline is a SaaS enterprise application designed to empower data professionals, enabling them to optimize data processes, automate tasks, and drive efficiency in data acquisition and processing. This project aims to enhance the user experience in managing, cleaning, and transforming data through an intuitive, no-code platform.<br><br>As the sole designer on the Pypeline team, I oversaw all aspect of the end-to-end UX design process, from inception to public launch. I collaborated with a global team of 20+ professionals, including product managers, software developers, data scientists, and DevOps engineers, to ensure the seamless delivery of a user-centric and visually compelling product.<br><br>\
+  <div class='projectCardsSection'><div class='projectCards'><div class='projectCardsTitle'>Product</div>SaaS, Data Lifecycle Management</div>\
+  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>UX Designer, Front-end Developer</div>\
+  <div class='projectCards'><div class='projectCardsTitle'>Technologies</div>Figma, JavaScript (React), HTML/CSS, Bitbucket, JIRA</div></div><br>\
   <div class='projectSubtitles'>Problem</div>Financial institutions face the challenge of efficiently accessing, processing, and integrating large volumes of data. However, current solutions utilized by data professionals often rely heavily on Excel, manual processes, and a complex array of ETL tools, leading to complexity, inefficiency, and risks that jeopardize data reliability. This poses a significant problem as it impedes operational efficiency, incurs unnecessary costs and overhead, and limits data availability for informed decision-making.<br><br>\
   <div class='projectSubtitles'>Goal</div><ul class='descriptionsNoPadding'><li>Provide data professionals with transparency, enhanced accessibility, and control in managing their data lifecycles.</li></ul><br>\
   <div class='projectSubtitles'>Process</div>As Pypeline’s designer, I:\
-  <ul class='descriptionsNoPadding'><li>Collaborated with product managers to shape product vision and engineer a solution that balances optimal user experience with fulfillment of business objectives.</li><li>Established and maintained the project’s design system in Figma, working closely with developers to ensure accuracy, consistency, and alignment with technical feasibilities throughout implementation.</li><li>Utilized a combination of quantitative and qualitative research methods, including competitive analysis, user interviews, surveys, A/B testing, and contextual inquiries, to gain insights into the industry, user base, and specific use cases.</li><li>Crafted well-informed design artifacts, including wireframes, mockups, prototypes, and flow maps guided by user research and findings.</li><li>Applied front-end development skills in JavaScript (JSX, React), HTML, and CSS to translate designs into interactive user interfaces.</li></ul><br>\
+  <ul class='descriptionsNoPadding'><li>Collaborated with product managers to shape product vision and engineer a solution that balances optimal user experience with fulfillment of business objectives.</li><li>Established and maintained the project’s design system in Figma, working closely with developers to ensure accuracy, consistency, and alignment with technical feasibility throughout implementation.</li><li>Utilized a combination of quantitative and qualitative research methods, including competitive analysis, user interviews, surveys, A/B testing, and contextual inquiries, to gain insights into the industry, user base, and specific use cases.</li><li>Crafted well-informed design artifacts, including wireframes, prototypes, and flow maps guided by user research and findings.</li><li>Applied front-end development skills in JavaScript (React), HTML, and CSS to translate designs into interactive user interfaces.</li></ul><br>\
   <div class='projectSubtitles'>Learnings</div>This was an incredible experience that greatly contributed to my growth and development as a designer. Here are my top 3 takeaways!\
   <ol class='descriptionsNoPadding'><li>As the sole designer on the team, I developed my leadership abilities by <span class='descriptionsHighlight'>taking ownership and fostering a UX design culture</span> of inclusivity, collective ownership, and open communication within the team. This involved:\
   <ul class='descriptionsNoPadding'><li>Educating and advocating for the adoption of best UX practices throughout the organization through presentations, one-on-one conversations, and clear design specifications and documentation.</li><li>Promoting cross-functional team collaborations early in the design process to make sure needs of all stakeholders were accounted for.</li><li>Ensuring regular communication and feedback sessions with cross-functional team members throughout the design process.</li></ul></li>\
   <li>My experience as the founding designer for this project provided me with invaluable insights into <span class='descriptionsHighlight'>creating and maintaining a consistent and scalable design system</span>, along with an understanding of the challenges and complexities involved. Through hands-on experience and continuous learning, I learned to prioritize:<ul class='descriptionsNoPadding'><li>Following best practices for design system management.</li><li>Conducting regular audits and reviews to ensure design system’s consistency and effectiveness.</li><li>Staying up to date on new tools and technologies to enhance efficiency in both design and development processes.</li></ul></li>\
   <li>Throughout the project, one of the key challenges our team faced was <span class='descriptionsHighlight'>adapting to evolving business requirements</span>. As the project progressed, we encountered multiple instances where business priorities shifted or stakeholders introduced additional requirements that required adjustments to the design direction and feature prioritization. From this challenge, we learned to communicate more effectively as a team by setting clear objectives and timelines for agreed-upon goals at the start of each sprint, while also remaining flexible in response to changing circumstances.</li></ol>",
 
-  "Pypeline is a SaaS enterprise application designed to empower data professionals, enabling them to optimize data processes, automate tasks, and drive efficiency in data acquisition and processing. This project aims to enhance the user experience in managing, cleaning, and transforming data through an intuitive, no-code platform.<br><br>As the sole designer on the Pypeline team, I oversaw all aspect of the end-to-end UX design process, from inception to public launch. I collaborated with a diverse global team of 15+ professionals, including product managers, software developers, data scientists, and DevOps engineers, to ensure the seamless delivery of a user-centric and visually compelling product.<br><br>\
-  <div class='projectCardsSection'><div class='projectCards'><div class='projectCardsTitle'>Product</div>SaaS, B2B, Enterprise, FinTech, Data Lifecycle Management</div>\
-  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>UX Design, UX Research, UI Design, Front-end Development, Product Design</div>\
-  <div class='projectCards'><div class='projectCardsTitle'>Technologies</div>Figma, JavaScript (JSX, React), HTML/CSS, Bitbucket, JIRA</div></div><br>\
+  "Pypeline is a SaaS enterprise application designed to empower data professionals, enabling them to optimize data processes, automate tasks, and drive efficiency in data acquisition and processing. This project aims to enhance the user experience in managing, cleaning, and transforming data through an intuitive, no-code platform.<br><br>As the sole designer on the Pypeline team, I oversaw all aspect of the end-to-end UX design process, from inception to public launch. I collaborated with a global team of 20+ professionals, including product managers, software developers, data scientists, and DevOps engineers, to ensure the seamless delivery of a user-centric and visually compelling product.<br><br>\
+  <div class='projectCardsSection'><div class='projectCards'><div class='projectCardsTitle'>Product</div>SaaS, Data Lifecycle Management</div>\
+  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>UX Designer, Front-end Developer</div>\
+  <div class='projectCards'><div class='projectCardsTitle'>Technologies</div>Figma, JavaScript (React), HTML/CSS, Bitbucket, JIRA</div></div><br>\
   <div class='projectSubtitles'>Problem</div>Financial institutions face the challenge of efficiently accessing, processing, and integrating large volumes of data. However, current solutions utilized by data professionals often rely heavily on Excel, manual processes, and a complex array of ETL tools, leading to complexity, inefficiency, and risks that jeopardize data reliability. This poses a significant problem as it impedes operational efficiency, incurs unnecessary costs and overhead, and limits data availability for informed decision-making.<br><br>\
   <div class='projectSubtitles'>Goal</div><ul class='descriptionsNoPadding'><li>Provide data professionals with transparency, enhanced accessibility, and control in managing their data lifecycles.</li></ul><br>\
   <div class='projectSubtitles'>Process</div>As Pypeline’s designer, I:\
-  <ul class='descriptionsNoPadding'><li>Collaborated with product managers to shape product vision and engineer a solution that balances optimal user experience with fulfillment of business objects.</li><li>Established and maintained the project’s design system in Figma, working closely with developers to ensure accuracy, consistency, and alignment with technical feasibilities throughout implementation.</li><li>Utilized a combination of quantitative and qualitative research methods, including competitive analysis, user interviews, surveys, A/B testing, and contextual inquiries, to gain insights into the industry, user base, and specific use cases.</li><li>Crafted well-informed design artifacts, including wireframes, mockups, prototypes, and flow maps guided by user research and findings.</li><li>Applied front-end development skills in JavaScript (JSX, React), HTML, and CSS to translate designs into interactive user interfaces.</li></ul><br>\
+  <ul class='descriptionsNoPadding'><li>Collaborated with product managers to shape product vision and engineer a solution that balances optimal user experience with fulfillment of business objectives.</li><li>Established and maintained the project’s design system in Figma, working closely with developers to ensure accuracy, consistency, and alignment with technical feasibility throughout implementation.</li><li>Utilized a combination of quantitative and qualitative research methods, including competitive analysis, user interviews, surveys, A/B testing, and contextual inquiries, to gain insights into the industry, user base, and specific use cases.</li><li>Crafted well-informed design artifacts, including wireframes, prototypes, and flow maps guided by user research and findings.</li><li>Applied front-end development skills in JavaScript (React), HTML, and CSS to translate designs into interactive user interfaces.</li></ul><br>\
   <div class='projectSubtitles'>Learnings</div>This was an incredible experience that greatly contributed to my growth and development as a designer. Here are my top 3 takeaways!\
   <ol class='descriptionsNoPadding'><li>As the sole designer on the team, I developed my leadership abilities by <span class='descriptionsHighlight'>taking ownership and fostering a UX design culture</span> of inclusivity, collective ownership, and open communication within the team. This involved:\
   <ul class='descriptionsNoPadding'><li>Educating and advocating for the adoption of best UX practices throughout the organization through presentations, one-on-one conversations, and clear design specifications and documentation.</li><li>Promoting cross-functional team collaborations early in the design process to make sure needs of all stakeholders were accounted for.</li><li>Ensuring regular communication and feedback sessions with cross-functional team members throughout the design process.</li></ul></li>\
@@ -150,12 +150,12 @@ export const floatItTitles = [
 export const floatItDescriptions = [
   "Float-it Notes is a Chrome extension that helps students stay mentally afloat with stress-free task management.<br><br>This is a solo project in which I conducted research, designed, and developed the extensions's user experience and interface.<br><br>\
   <div class='projectCardsSection'><div class='projectCards'><div class='projectCardsTitle'>Product</div>Chrome Extension, Productivity</div>\
-  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>UX Design, UX Research, UI Design, Front-end Development, Product Design</div>\
-  <div class='projectCards'><div class='projectCardsTitle'>Technologies</div>JavaScript, HTML/CSS, Adobe Photoshop, Medibang Paint, Zoom, Discord</div></div><br>\
+  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>UX Designer, Front-end Developer</div>\
+  <div class='projectCards'><div class='projectCardsTitle'>Technologies</div>JavaScript, HTML/CSS, Adobe Photoshop, Medibang Paint</div></div><br>\
   <div class='projectSubtitles'>Problem</div>Balancing the demands of academia, employment, meetings, assignments, and deadlines presents a significant challenge for numerous high school and college students. Research consistently shows that individuals in this age bracket endure heightened stress levels as they navigate multiple responsibilities. In this struggle to effectively manage their time and priorities, students often find themselves overwhelmed, leading to increased stress levels that can negatively impact their mental well-being and academic performance.<br><br>\
   <div class='projectSubtitles'>Goal</div><ul class='descriptionsNoPadding'><li>Help students keep track of their school, work, and personal responsibilities in a stress-free way.</li></ul><br>\
   <div class='projectSubtitles'>Process</div>To create Float-it Notes, I:\
-  <ul class='descriptionsNoPadding'><li>Conducted user research amongst 14-25 year olds to learn their planner usage and habits.</li><li>Analyzed competitor tools and their funcitonalities.</li><li>Conceptualized an alternative planner design that was whimsical and unique.</li><li>Created and drew graphical assets for user interface.</li><li>Designed and developed working prototype of Chrome extension.</li></ul><br>\
+  <ul class='descriptionsNoPadding'><li>Conducted user research amongst 14-25 year olds to learn their planner usage and habits.</li><li>Analyzed competitor tools and their functionalities.</li><li>Conceptualized an alternative planner design that was whimsical and unique.</li><li>Created and drew graphical assets for user interface.</li><li>Designed and developed working prototype of Chrome extension.</li></ul><br>\
   <div class='projectSubtitles'>Result</div>I prototyped a Chrome extension that helps users stay afloat in the hecticity of their everyday by providing them with a sanctuary in their New Tab page where they can stay organized, motivated, and sane, with light-hearted aesthetics, daily inspirational quotes, and built-in task management tools.\
   <br><br>Users store their tasks as bottles that get added onto their New Tab page's waterscape and can view/update their tasks throughout the day. <br><br>Features include:<br>\
   <ul class='descriptionsNoPadding'><li>Planner functionalities:\
@@ -163,27 +163,17 @@ export const floatItDescriptions = [
   <li>A time/date display</li><li>Hand-drawn images and animations</li><li>Daily inspirational quotes</li></ul><br>\
   This is a passion project that I plan to release onto the Chrome Web Store and is for those who need a planner and appreciate a bit of playfulness throughout their daily Chrome browsing experience!",
 
-  "My target audience consists of high school and college students, ages 14-24, who use Chrome on laptops or desktops.\
-  <br><br>My initial user research goals were to understand my target audience and find out their:\
+  "I began this project by conducting interviews with 8 students aged 14-25 to get a better understanding of my targeted demographic’s goals and pain points when it comes to task management.\
+  <br><br>My initial user research goals were to find out:\
   <ul class='descriptionsNoPadding'>\
   <li>General online habits</li><li>Current/past usage of planners if any (physical and/or digital)</li><li>Favorite aspects of current solution</li><li>Parts of their current solution that don’t meet their needs</li></ul><br>\
   These are the user research questions that I asked participants (ages 16-23) during one-on-one interviews conducted on Zoom and Discord.",
 
-  "From my user research, I was able to understand who popular competitors are for futher competitive analysis, important planner functionalities that users preferred, and what tools are considered “fluff” and/or unnecessary by a majority of them. <br><br>Here are some of the big takeaways from the interviews:<br>\
+  "The insights from the research findings revealed:<br>\
   <ol class='descriptionsNoPadding'>\
-  <li>Most of the participants use a digital planner with a few using a mix of both/only physical planners. Most of the digital planner users used Google Calenders, Notes app, or Trello to keep track of their schedules and to-do lists.</li><br>\
-  <li>Benefits of using digital planners for participants include:\
-  <ul class='descriptionsNoPadding'><li>Ease of <span class='descriptionsHighlight'>organization</span> (pre-formatted unlike physical planners)</li>\
-  <li>Easy <span class='descriptionsHighlight'>access</span> on the phone/computer</li>\
-  <li>Being able to see a <span class='descriptionsHighlight'>daily/weekly view</span> of their schedule</li>\
-  <li>A place to store important <span class='descriptionsHighlight'>links</span></li>\
-  <li>Ability to set <span class='descriptionsHighlight'>reminders</li></ul><br>\
-  <li>Pain points of using digital planners include:\
-  <ul class='descriptionsNoPadding'><li>The lack of <span class='descriptionsHighlight'>customization</span> outside of text boxes</li><li>An overwhelming amount of tools that go unused</li><li>The lack of <span class='descriptionsHighlight'>sorting</span> by subject/groups.</li></ul><br>\
-  <li>Benefits of using physical planners include:\
-  <ul class='descriptionsNoPadding'><li>The <span class='descriptionsHighlight'>freedom of formatting</span> (not prestructured like digital planners)</li><li>Ability to add <span class='descriptionsHighlight'>creative non-text additions</span></li><li>A space for brain dump</li></ul><br>\
-  <li>Pain points of using physical planners include:\
-  <ul class='descriptionsNoPadding'><li>Not being able to edit tasks like digital planners</li><li>Harder to find what you’re looking for in all the pages</li><li>Needing to carry it around everywhere</li></ul></ol>",
+  <li><span class='descriptionsHighlight'>Digital planner usage was the majority.</span>The majority of students reported using digital planners, with popular choices including Google Calendar, the Notes app, and Trello.</li><br>\
+  <li><span class='descriptionsHighlight'>Main benefits and pain points of digital planners.</span>Students mostly valued the accessibility, ease of organization, and reminder features of digital planners. However, their main pain points included the lack of task customization and detailing, an overwhelming amount of unused tools, and lack of sorting/grouping options for subjects.<br><br>\
+  <li><span class='descriptionsHighlight'>Main benefits and pain points of physical planners.</span>Students who preferred physical planners mostly valued the flexibility they offered in adding creative non-text elements and customizing  formatting to their liking. Their main pain points included difficulties in organization, editing/reformatting, and lack of accessibility.</li></ol>",
 
   "Here are some of the competitors I researched that take over the New Tab page, most of which were productivity extensions. I took note of each of their taglines, audiences, purposes, features, scopes, and visual styles.<br><br>\
   From this, I was able to draw similarities between the offerings of current solutions and see where I can bridge the gap in where they lacked in meeting the pain points of users I discovered from my research.",
@@ -223,19 +213,19 @@ export const roomTitles = [
   "Strategy Document",
 ];
 export const roomDescriptions = [
-  "Room is a mobile app that helps Gen Z-ers living in cities find the perfect room and roommate.<br><br>\
+  "Room is a mobile app that helps young adults living in cities find the perfect room and roommate.<br><br>\
   As a UX Designer and Researcher within a team of 2 other designers, I played a pivotal role in shaping the app's user experience. I conducted competitive analysis, user surveys and interviews, led the creation of personas and journey maps, and designed wireframes that effectively utilized research findings for the mobile experience.<br><br>\
   <div class='projectCardsSection'><div class='projectCards'><div class='projectCardsTitle'>Product</div>Mobile App, Social Networking</div>\
-  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>UX Design, UX Research, UI Design, Product Design</div>\
+  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>UX Designer</div>\
   <div class='projectCards'><div class='projectCardsTitle'>Technologies</div>Figma, Google Forms</div></div><br>\
   <button class='slidesLink' onclick=\"window.open('https://www.figma.com/proto/oEjvYKDuItXKElZCPmSFCE/Room?page-id=0%3A1&node-id=2-194&viewport=843%2C2382%2C0.66&t=oYjB815ONDbgqe6c-1&scaling=scale-down&starting-point-node-id=2%3A952')\">View Figma Prototype</button><br>\
-  <div class='projectSubtitles'>Problem</div>54% of the world’s population live in urban communities. The average age for men is 29 (up from 26 two decades ago) and for women is 27 (up from 23 in the same time period). Given these trends, city dwellers tend to spend most of their twenties living with roommates. Finding and keeping a good roommate, however, gets harder as more people swarm into cities.<br><br>\
-  <div class='projectSubtitles'>Goal</div><ul class='descriptionsNoPadding'><li>Make it easy and safe to find the ideal roommate in cities.</li></ul><br>\
+  <div class='projectSubtitles'>Problem</div>Finding an ideal roommate in cities is a significant challenge for many young adults. As they transition to independent living, high living costs often necessitate splitting rent with roommates. Traditional methods of finding roommates, such as word-of-mouth, social media groups, or generic listing platforms, often fall short in addressing the specific needs and preferences of this tech-savvy, socially conscious generation. This results in prolonged search times, increased stress, and a higher likelihood of mismatched living situations, which can lead to conflicts and instability in their daily lives.<br><br>\
+  <div class='projectSubtitles'>Goal</div><ul class='descriptionsNoPadding'><li>Make it easy and safe for young adults to find the ideal roommate in cities.</li></ul><br>\
   <div class='projectSubtitles'>Process</div>For Room, I collaborated with my teammates and:\
   <ul class='descriptionsNoPadding'><li>Analyzed competitors in the current market of roommate matching apps.</li><li>Conducted surveys amongst our targeted demographic to learn the objectives and pain points of their roommate/room experiences.</li><li>Generated personas and journey maps from the collected user research data.</li><li>Constructed user flows for both new and returning users with different objectives.</li><li>Created a strategy document outlining product objectives, market opportunities, and product visions.</li><li>Designed low/mid fidelity wireframes prototyping the sign-in/sign-up process, user profile customizations, roommate matching system and apartment listings search system.</li></ul><br>\
-  <div class='projectSubtitles'>Result</div>My teammates and I designed a working prototype for Room, a mobile dedicated to helping Gen Zers find the perfect roommate, locate a suitable place to live, and smoothly transition into their new independent life with their roommates.<br><br>",
+  <div class='projectSubtitles'>Result</div>My teammates and I designed a prototype for Room, a mobile dedicated to helping young adults find the perfect roommate, locate a suitable place to live, and smoothly transition into their new independent life with their roommates.<br><br>",
 
-  "Competitive analysis was conducted on 6 of the most popular room and/or roommate finder and other apps with similar functionalities. We distinguished them by competitor type, priorities, key features, region accessibility, and KPIs. <br><br>From this research, opportunities were found to include the following features into Room:\
+  "Competitive analysis was conducted on 6 of the most popular room and/or roommate finder and other apps with similar functionalities. We categorized them by competitor type, priorities, key features, region accessibility, and KPIs. <br><br>From this research, opportunities were found to include the following features into Room:\
   <ul class='descriptionsNoPadding'><li>Combine Tinder's swiping feature with Roomi's background checks and in-depth questionnaires to ensure mutual safety and increase user excitement for sharing commonalities with their matches.</li><li>Have a wide selection of search parameters for users to filter roommates and rentable rooms.</li><li>Make app accessible worldwide and available in multiple languages.</li><li>Landlords' profiles and details shown on listings for easy user access.</li><li>Different communication methods available such as text, call, and video call so people can familiarize with one another online before meeting in person.</li><li>Include ratings and testimonials for landlords and rooms/apartments from past renters.</li><li>Include additional resources to help users transition smoothly into their new shared space (paying bills, splitting chores, buying shared groceries, etc.).</li></ul>",
 
   "The goal of our user research was to understand the concerns and desires 18-25 year olds have in regards to the roommate/room  searching process. Participants were asked about their past or current rooming experiences, their experience with NYU's roommate matching system (if applicable), their current solutions to finding a roommate or room, and their level of comfort in using quick digital transaction to pay for rent.<br><br>The surveys were carried out through anonymous Google Forms which were sent out to the NYU community, friends, and friends of friends.",
@@ -251,7 +241,7 @@ export const roomDescriptions = [
   During the designing of Room, we looked through the eyes of Naomi and Arjun to make sure that the experience our app provided was versatile and useful for a broad spectrum of users.",
 
   "The journey maps created for Naomi and Arjun illustrate 2 scenarios in which users may utilize Room to find a roommate. Each of these experiences has its own highs and lows in terms of user satisfaction.<br><br>\
-  These journey maps highlight pivitol moments where we can leverage positives emotions and take proactive steps to ease negative feelings.",
+  These journey maps highlight pivotal moments where we can leverage positives emotions and take proactive steps to ease negative feelings.",
 
   "Our 2 user flows for new and returning users show the different screens users visit and decisions they make as they complete their goals within the app. This ensures that each step of a user's in-app experience is efficient and purposeful.",
 
@@ -285,8 +275,8 @@ export const inertiaTitles = [
 export const inertiaDescriptions = [
   "Inertia is a mobile app that motivates gamers to exercise by integrating their workout routines with the immersive experience of an engaging RPG game.<br><br>This is a solo project in which I conducted research and designed the gamified fitness app.<br><br>\
   <div class='projectCardsSection'><div class='projectCards'><div class='projectCardsTitle'>Product</div>Mobile App, Fitness, Gaming</div>\
-  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>UX Design, UX Research, UI Design, Product Design</div>\
-  <div class='projectCards'><div class='projectCardsTitle'>Technologies</div>Figma, Adobe Photoshop, Google Forms, Zoom, Discord</div></div><br>\
+  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>UX Designer</div>\
+  <div class='projectCards'><div class='projectCardsTitle'>Technologies</div>Figma, Adobe Photoshop</div></div><br>\
   <div class='slidesLinkSection'><button class='slidesLink' onclick=\"window.open('https://www.figma.com/file/4GKpbsBQxAKKfarmcLW0tp/Inertia','_blank')\">View Figma Designs</button></div><br>\
   <div class='projectSubtitles'>Problem</div>Studies in 2021 have shown that more than 82 million US residents aged 6 and above don't exercise at all, making it more likely for them to develop a host of health problems like high blood pressure, high cholesterol, and heart disease.<br><br>\
   This sedentary lifestyle is often due to various factors such as lack of motivation, financial constraints, no/limited access to fitness facilities, and lack of time. In some instances, individuals who do have access to such resources may opt for sedentary activities such as screen time, due to convenience and force of habit, further perpetuating the cycle of inactivity.<br><br>\
@@ -310,7 +300,7 @@ export const inertiaDescriptions = [
 
   "The second round of user research was live 1-on-1 recorded interviews with participants on either Zoom or Discord testing for app navigation and usability.<br><br>During these 10-15 minute interviews, participants were provided with a link to a mobile prototype of Inertia. They were instructed to share their screen and vocalize their thoughts as they navigated through a series of tasks to complete within the app. I kept track of the time spent on each task and took note of any smooth interactions, unexpected issues, and observations/comments made by the users.",
 
-  "From the second round of user research, I received valuable feedback that I incorporated into the refinement and improvement of Inertia's user experience. Since my users were all gamers interacting with Inertia for the first time, they were able to bring in their own knowledge and understanding of game mechanics they were familiar with. Their responses aided in enhancing Inertia as not only a fitness app, but also as a functional and enjoyable game.<br><br>Highlighted bullet points in the image indicate popular/repeated feeback from participants.",
+  "From the second round of user research, I received valuable feedback that I incorporated into the refinement and improvement of Inertia's user experience. Since my users were all gamers interacting with Inertia for the first time, they were able to bring in their own knowledge and understanding of game mechanics they were familiar with. Their responses aided in enhancing Inertia as not only a fitness app, but also as a functional and enjoyable game.<br><br>Highlighted bullet points in the image indicate popular/repeated feedback from participants.",
 
   "Inertia's game portion is an RPG. Users play as a character of a class of their choosing (warrior, mage, priest, archer, or assassin) as they battle their way through floors of the virtual world’s dungeon, called the Battle Tower, either solo or with friends. The battle system is turn based, with each player/enemy character using their mana to cast an ability on their turn. The battle ends when all the characters of a side has no health left. <br><br>Players can make their characters stronger with equipment and skill points they gain from working out. They can sell/buy/customize their equipment in the Shop, level up their unique class skills/abilities in the Skills Tree, and change their equipment and character appearance in Inventory.",
 
@@ -339,38 +329,38 @@ export const askAppsDescriptions = [
   "Ask Applications is one of the world’s largest distributors of desktop applications, browser extensions, and PC optimization software, with over 120 million monthly active users.<br><br>\
   As a Web Design intern on the Ask Apps team, I was responsible for designing legally compliant landing pages, advertisements, mockups, and digital assets, as well as developing and maintaining web pages for their diverse product portfolio.<br><br>This project was a collaborative effort with the Product Management intern to repurpose the uninstall pages for Ask Apps' browser extensions, where I led the design process in the creation of the new screens.<br><br>\
   <div class='projectCardsSection'><div class='projectCards'><div class='projectCardsTitle'>Product</div>Website, E-Commerce</div>\
-  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>Web Design, Product Design</div>\
+  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>Web Design Intern</div>\
   <div class='projectCards'><div class='projectCardsTitle'>Technologies</div>Adobe Photoshop</div></div><br>\
   <div class='projectSubtitles'>Problem</div>Ask Applications' usual uninstall pages are unstyled feedback forms returning data that often go unread, unorganized, and unused due to the large quantity of them. This inefficiency is a missed opportunity, as any valuable user insights are buried amidst the overwhelming quantity of feedback, undermining the intended purpose of these pages.<br><br>\
   <div class='projectSubtitles'>Goal</div><ul class='descriptionsNoPadding'><li>Utilize the space on the uninstall pages in a more effective and productive way.</li></ul><br>\
   <div class='projectSubtitles'>Result</div>I redesigned the uninstall pages to replace the previous feedback forms with a page showcasing Ask Applications' other products. This redesign aims to maximize the potential of the valuable real estate by boosting awareness and visibility for other company offerings, potentially resulting in increased installation rates and improved customer retention.",
 
   "This is a sample of ad designs I created for Ask Apps' Slimware products.<br><br><div class='projectCardsSection'><div class='projectCards'><div class='projectCardsTitle'>Product</div>Web Ad, E-Commerce</div>\
-  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>Web Design</div>\
+  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>Web Design Intern</div>\
   <div class='projectCards'><div class='projectCardsTitle'>Technologies</div>Adobe Photoshop</div></div><br>\
   <div class='projectSubtitles'>Background</div>Ask Applications needed ads for their Slimware brand to advertise one of their PC products.<br><br>\
   <div class='projectSubtitles'>Result</div>I created various ad designs for Slimware in accordance to Google compliant ad specifications.<br><br>Pictured is a sample of a set that I created.",
 
   "This is a sample of landing pages I designed and built for Ask Apps' browser extensions.<br><br><div class='projectCardsSection'><div class='projectCards'><div class='projectCardsTitle'>Product</div>Website, E-Commerce</div>\
-  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>Web Design</div>\
+  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>Web Design Intern</div>\
   <div class='projectCards'><div class='projectCardsTitle'>Technologies</div>Adobe Photoshop, proprietary CMS, HTML/CSS</div></div><br>\
   <div class='projectSubtitles'>Background</div>Ask Applications needed new landing pages for a multitude of their 100+ browser-based tools. The existing ones were plain, generic templates that had little to no correlation to the product being advertised, resulting in a loss of opportunity to attract and engage new users effectively.<br><br>\
   <div class='projectSubtitles'>Result</div>I designed a variety of landing pages that reflected the corresponding extension's utility in some way. These custom pages were designed to add personality, relevance, and improve user engagement.<br><br>Pictured is a sample of landing page designs I created.",
 
   "This is a sample of landing pages I designed and built for Ask Apps' browser extensions.<br><br><div class='projectCardsSection'><div class='projectCards'><div class='projectCardsTitle'>Product</div>Website, E-Commerce</div>\
-  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>Web Design</div>\
+  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>Web Design Intern</div>\
   <div class='projectCards'><div class='projectCardsTitle'>Technologies</div>Adobe Photoshop, proprietary CMS, HTML/CSS</div></div><br>\
   <div class='projectSubtitles'>Background</div>Ask Applications needed new landing pages for a multitude of their 100+ browser-based tools. The existing ones were plain, generic templates that had little to no correlation to the product being advertised, resulting in a loss of opportunity to attract and engage new users effectively.<br><br>\
   <div class='projectSubtitles'>Result</div>I designed a variety of landing pages that reflected the corresponding extension's utility in some way. These custom pages were designed to add personality, relevance, and improve user engagement.<br><br>Pictured is a sample of landing page designs I created.",
 
   "This is a sample of landing pages I designed and built for Ask Apps' browser extensions.<br><br><div class='projectCardsSection'><div class='projectCards'><div class='projectCardsTitle'>Product</div>Website, E-Commerce</div>\
-  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>Web Design</div>\
+  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>Web Design Intern</div>\
   <div class='projectCards'><div class='projectCardsTitle'>Technologies</div>Adobe Photoshop, proprietary CMS, HTML/CSS</div></div><br>\
   <div class='projectSubtitles'>Background</div>Ask Applications needed new landing pages for a multitude of their 100+ browser-based tools. The existing ones were plain, generic templates that had little to no correlation to the product being advertised, resulting in a loss of opportunity to attract and engage new users effectively.<br><br>\
   <div class='projectSubtitles'>Result</div>I designed a variety of landing pages that reflected the corresponding extension's utility in some way. These custom pages were designed to add personality, relevance, and improve user engagement.<br><br>Pictured is a sample of landing page designs I created.",
 
   "This is a sample of landing pages I designed and built for Ask Apps' browser extensions.<br><br><div class='projectCardsSection'><div class='projectCards'><div class='projectCardsTitle'>Product</div>Website, E-Commerce</div>\
-  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>Web Design</div>\
+  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>Web Design Intern</div>\
   <div class='projectCards'><div class='projectCardsTitle'>Technologies</div>Adobe Photoshop, proprietary CMS, HTML/CSS</div></div><br>\
   <div class='projectSubtitles'>Background</div>Ask Applications needed new landing pages for a multitude of their 100+ browser-based tools. The existing ones were plain, generic templates that had little to no correlation to the product being advertised, resulting in a loss of opportunity to attract and engage new users effectively.<br><br>\
   <div class='projectSubtitles'>Result</div>I designed a variety of landing pages that reflected the corresponding extension's utility in some way. These custom pages were designed to add personality, relevance, and improve user engagement.<br><br>Pictured is a sample of landing page designs I created.",
@@ -393,7 +383,7 @@ export const askAppsDescriptions = [
 // export const acornDescriptions = [
 //   "Acorn is a fictional health and wellness company that is dedicated to helping people live healthier and more eco-friendly lifestlyes.<br><br>This is a solo project in which I designed graphics and merchandise for a conceptualized company.<br><br>\
 //   <div class='projectCardsSection'><div class='projectCards'><div class='projectCardsTitle'>Product</div>Logo, Product Merchandise</div>\
-//   <div class='projectCards'><div class='projectCardsTitle'>My Role</div>Brand Design, Graphic Design, UX Research, Product Design</div>\
+//   <div class='projectCards'><div class='projectCardsTitle'>My Role</div>Graphic Designer, Product Designer</div>\
 //   <div class='projectCards'><div class='projectCardsTitle'>Technologies</div>Adobe Illustrator, Adobe Photoshop, vinyl cutter</div></div><br>\
 //   <div class='projectSubtitles'>Background</div>Acorn required a logo and branded merchandise that reflected its core values of wellness, growth, and sustainability.<br><br>\
 //   <div class='projectSubtitles'>Result</div>For the logo, I crafted a simplistic and geometric design to emphasize the company's commitment to cleanliness and environmental consciousness. I incorporated squirrel-like shapes and a custom rounded typeface to achieve a friendly and inviting feel.",
@@ -418,7 +408,7 @@ export const outcastSlides = [
 export const outcastTitles = ["About", "Snapshots", "Snapshots"];
 export const outcastDescriptions = [
   "Outcast is a narrative RPG adventure game.<br><br>As the UI Design Lead and Narrative Designer on a team of 3 game developers, I was responsible for bringing the story to life with an immersive and fantastical world.<br><br><div class='projectCardsSection'><div class='projectCards'><div class='projectCardsTitle'>Product</div>Digital Game</div>\
-  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>Game UI, Game Design, Narrative Design</div>\
+  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>Game UI Artist, Game Narrative Designer</div>\
   <div class='projectCards'><div class='projectCardsTitle'>Technologies</div>GameMaker Studio 2, Medibang Paint, Adobe Photoshop</div></div><br>\
   <div class='projectSubtitles'>Background</div>Outcast is the story of a young boy who once wielded the most powerful sword known to man. However, tragedy strikes when his village is suddenly attacked by strange, hostile creatures. Amidst the chaos, he loses everyone and everything he holds dear, including the legendary sword, and is cast into a strange and unfamiliar realm.<br><br>\
   <div class='projectSubtitles'>Result</div>My teammates and I designed and developed a playable demo for Outcast that showcased the game's narrative, world, currency system, inventory, combat mechanics, exploration opportunities, puzzle-solving challenges, and character interactions, which we presented at one of NYU's Playtest events.<br><br>\
@@ -437,7 +427,7 @@ export const missileCommandTitles = ["About", "Snapshots"];
 export const missileCommandCloneDescriptions = [
   "This is a solo project in which I challenged myself to recreate the game 'Missile Command' by Atari that is as close to the original as possible, gameplay-wise and visually.<br><br>\
   <div class='projectCardsSection'><div class='projectCards'><div class='projectCardsTitle'>Product</div>Digital Game</div>\
-  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>Game Development, Game UI</div>\
+  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>Game Developer, Game UI Artist</div>\
   <div class='projectCards'><div class='projectCardsTitle'>Technologies</div>GameMaker Studio 2</div></div><br>\
   <div class='projectSubtitles'>Background</div>My version of Missile Command is complete with a menu page, scaling level difficulty, various enemies, true-to-original sprites, a point system, and a game-over screen.",
 
@@ -459,7 +449,7 @@ export const wizardsJourneyTitles = [
 export const wizardsJourneyDescriptions = [
   "Wizard's Journey is an original multiplayer race game.<br><br>This is a solo project in which I designed and developed an original complete game.<br><br>\
   <div class='projectCardsSection'><div class='projectCards'><div class='projectCardsTitle'>Product</div>Digital Game</div>\
-  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>Game Development, Game UI, Game Design, Game Audio Design</div>\
+  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>Game Developer, Game UI Artist</div>\
   <div class='projectCards'><div class='projectCardsTitle'>Technologies</div>GameMaker Studio 2, Adobe Photoshop</div></div><br>\
   <div class='projectSubtitles'>Background</div>In this original multiplayer game, players compete to be the first one to reach the top of a vertical obstacle race.<br><br>Rules:\
   <ul class='descriptionsNoPadding'><li>There are 3 playable characters. Each character has different spells that can be used to hinder other players or to destroy incoming map projectiles.</li><li>The mana bars at the top indicate the respective color's ability to use spells and teleport back into view if they fall behind.</li><li>Characters that run out of mana are removed from the race.</li><li>First to the top wins!</li></ul>\
@@ -481,7 +471,7 @@ export const tantrumSlides = [
 export const tantrumTitles = ["About", "Snapshots", "Snapshots", "Snapshots"];
 export const tantrumDescriptions = [
   "Tantrum is a 3D animation short.<br><br>This is a solo project in which I produced an original animation.<br><br><div class='projectCardsSection'><div class='projectCards'><div class='projectCardsTitle'>Product</div>3D Animated Video</div>\
-  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>3D Animation, Video Direction, Video Editing, Storyboarding</div>\
+  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>3D Animator, Video Director, Video Editor</div>\
   <div class='projectCards'><div class='projectCardsTitle'>Technologies</div>Autodesk Maya, Adobe Premiere Pro, Adobe Photoshop</div></div>\
   <br><div class='projectSubtitles'>Background</div>I conceived and animated a humorous 1-minute animation illustrating a child's emotional journey through grief, all revolving around a humble box of KitKats.",
 
@@ -501,7 +491,7 @@ export const studyRoomTitles = ["About", "Reference", "WIP"];
 export const studyRoomDescriptions = [
   "This is a solo project in which I 3D modeled and textured an indoor environment.<br><br>\
   <div class='projectCardsSection'><div class='projectCards'><div class='projectCardsTitle'>Product</div>3D Environment</div>\
-  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>3D Modeling</div>\
+  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>3D Modeler</div>\
   <div class='projectCards'><div class='projectCardsTitle'>Technologies</div>Autodesk Maya</div></div>\
   <br><div class='projectSubtitles'>Background</div>I created a 3D model of a study room complete with textures and lighting.",
 
@@ -518,7 +508,7 @@ export const raygunTitles = ["About", "Reference"];
 export const raygunDescriptions = [
   "This is a solo project in which I 3D modeled an object based on an image reference.<br><br>\
   <div class='projectCardsSection'><div class='projectCards'><div class='projectCardsTitle'>Product</div>3D Model</div>\
-  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>3D Modeling</div>\
+  <div class='projectCards'><div class='projectCardsTitle'>My Role</div>3D Modeler</div>\
   <div class='projectCards'><div class='projectCardsTitle'>Technologies</div>Autodesk Maya</div></div>\
   <br><div class='projectSubtitles'>Background</div>I created a 3D model a raygun from a reference photo.",
 
