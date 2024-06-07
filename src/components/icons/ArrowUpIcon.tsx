@@ -10,6 +10,21 @@ export function ArrowUpIcon(props: IconProps) {
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-    ></svg>
+    >
+      <path
+        d="M12 21V5"
+        stroke="#ffffff"
+        stroke-width="2.4"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M5 10L12 3L19 10"
+        stroke="#ffffff"
+        stroke-width="2.4"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
   );
 }

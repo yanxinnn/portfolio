@@ -103,11 +103,11 @@ button {
   flex-direction: row;
   gap: 0.5rem;
   justify-content: center;
-  color: #3d3939;
+  color: #ffffff;
   position: fixed;
   bottom: 0;
   align-items: center;
-  background-color: rgb(255, 199, 208);
+  background-color: #658aa9;
   width: 100%;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -979,7 +979,7 @@ input#sound:checked ~ .off img {
 /* ********** Other ********** */
 a:link,
 a:visited {
-  color: #4e4a4a;
+  color: white;
   background-color: transparent;
   font-family: "JetBrains Mono", sans-serif;
   font-weight: 600;
@@ -993,7 +993,7 @@ a:hover {
 
 a:hover,
 a:active {
-  color: #8a8a8a;
+  color: var(--color-lightpink);
   background-color: transparent;
   font-weight: normal;
   font-style: normal;

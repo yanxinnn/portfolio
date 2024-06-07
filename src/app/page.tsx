@@ -1,14 +1,14 @@
 import Link from "next/link";
 import { ProjectCard } from "@/components/ProjectCard";
 import { LinkedinIcon } from "@/components/icons/LinkedinIcon";
-import { GameIcon } from "@/components/icons/gameIcon";
+import { GameIcon } from "@/components/icons/GameIcon";
 
 export default function Home() {
   return (
     <div className="bg-[#fef2ec] flex flex-col items-center">
       {/* Header */}
       <div className="header">
-        <Link href="/" className="logo text-earthy-500">
+        <Link href="/" className="logo text-earthy-500 fixed">
           YJ
         </Link>
 
@@ -73,7 +73,7 @@ export default function Home() {
         <div className="flex flex-col gap-5 items-center pb-20">
           <h2 className="text-earthy-500">Got a bit more time to sp-hare?</h2>
           <Link href="game/home.html">
-            <button className="flex flex-row gap-4">
+            <button className="flex flex-row gap-4 bg-lightAccent-100 hover:bg-lightAccent-200">
               <GameIcon />
               Check out my interactive portfolio!
             </button>

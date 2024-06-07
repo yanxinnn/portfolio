@@ -4,8 +4,8 @@ import { join } from "path";
 import { compileMDX } from "next-mdx-remote/rsc";
 import Link from "next/link";
 import { ImageContainer } from "@/components/ImageContainer";
-import { ProjectBotNav } from "@/components/projectBotNav";
-import { ArrowUpIcon } from "@/components/icons/arrowUpIcon";
+import { ProjectBotNav } from "@/components/ProjectBotNav";
+import ScrollToTopButton from "@/components/ScrollToTopButton";
 
 type PageProps = {
   params: {
@@ -17,6 +17,9 @@ type PageMeta = {
   title: string;
   description: string;
   backgroundColor: string;
+  myRole: string;
+  team: string;
+  myTools: string;
   topBannerImage: string;
   bottomBannerImage: string;
   bottomBannerImageSpecs?: string;
@@ -81,14 +84,14 @@ export default async function Page(props: PageProps) {
             className="header"
             style={{ backgroundColor: frontmatter.backgroundColor }}
           >
-            <Link href="/" className="logo">
+            <Link href="/" className="logo fixed">
               YJ
             </Link>
           </div>
 
           {/* Project banner */}
           <div
-            className="flex flex-wrap justify-center items-center gap-16 pb-32 px-12"
+            className="flex flex-wrap justify-center items-center gap-16 pt-8 pb-32 px-12"
             style={{ backgroundColor: frontmatter.backgroundColor }}
           >
             <div className="flex flex-col gap-4 max-w-60">
@@ -106,23 +109,22 @@ export default async function Page(props: PageProps) {
         <div className="flex flex-wrap gap-x-16 gap-y-6 w-fit place-self-center -mt-12 bg-white items-center py-5 px-6 shadow-md rounded-lg mx-12">
           <div className="flex flex-col gap-2 max-w-[12rem]">
             <h3 className="projectStatsLabel">My Role</h3>
-            <p className="projectStatsText">
-              UX Designer, <br />
-              Front-end Developer
+            <p className="projectStatsText whitespace-pre-wrap">
+              {frontmatter.myRole}
             </p>
           </div>
 
           <div className="flex flex-col gap-2 self-start max-w-[13rem]">
             <h3 className="projectStatsLabel">Team</h3>
-            <p className="projectStatsText">
-              3 product managers, <br />1 designer, 17+ engineers
+            <p className="projectStatsText whitespace-pre-wrap">
+              {frontmatter.team}
             </p>
           </div>
 
           <div className="flex flex-col gap-2 self-start max-w-[22rem]">
             <h3 className="projectStatsLabel">My Tools</h3>
-            <p className="projectStatsText">
-              Figma, JavaScript (React), HTML/CSS, Bitbucket, JIRA
+            <p className="projectStatsText whitespace-pre-wrap">
+              {frontmatter.myTools}
             </p>
           </div>
         </div>
@@ -142,18 +144,19 @@ export default async function Page(props: PageProps) {
           <img src={frontmatter.bottomBannerImage} />
         </div>
 
-        {/* Scroll to top of page button */}
-        <div className="fixed">
-          <ArrowUpIcon />
-        </div>
+        {/* Benchmark for scroll to top of page button */}
+        <div id="targetDiv"></div>
 
         {/* Project bottom navigation bar */}
-        <ProjectBotNav
-          prevProjectName={frontmatter.prevProjectName}
-          prevProjectLink={frontmatter.prevProjectLink}
-          nextProjectName={frontmatter.nextProjectName}
-          nextProjectLink={frontmatter.nextProjectLink}
-        />
+        <div>
+          <ScrollToTopButton />
+          <ProjectBotNav
+            prevProjectName={frontmatter.prevProjectName}
+            prevProjectLink={frontmatter.prevProjectLink}
+            nextProjectName={frontmatter.nextProjectName}
+            nextProjectLink={frontmatter.nextProjectLink}
+          />
+        </div>
       </div>
     );
   } catch {
