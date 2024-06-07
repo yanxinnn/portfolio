@@ -31,6 +31,10 @@ export default function Home() {
             passionate about creating impactful, delightful, and human
             experiences.
           </h4>
+
+          {/* <Link href="/images/YanxinJiang_Resume.pdf" target="blank">
+            Resume
+          </Link> */}
         </div>
 
         <img

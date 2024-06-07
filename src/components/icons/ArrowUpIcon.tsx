@@ -14,16 +14,16 @@ export function ArrowUpIcon(props: IconProps) {
       <path
         d="M12 21V5"
         stroke="#ffffff"
-        stroke-width="2.4"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M5 10L12 3L19 10"
         stroke="#ffffff"
-        stroke-width="2.4"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

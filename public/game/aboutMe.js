@@ -180,5 +180,5 @@ function mainMenu() {
 }
 
 function openResume() {
-  window.open("images/YanxinJiang_Resume.pdf");
+  window.open("../images/YanxinJiang_Resume.pdf");
 }

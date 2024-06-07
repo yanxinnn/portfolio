@@ -80,7 +80,7 @@ button {
 .menuButtons button {
   background-color: var(--color-lightblue);
   border-radius: 10px;
-  border: 4px rgb(84, 116, 146) solid;
+  border: 4px #547492 solid;
   color: #ffffff;
   width: 18.75rem;
   height: 3.4375rem;
@@ -99,18 +99,26 @@ button {
 }
 
 .portfolioLink {
+  border: none !important;
   display: flex;
-  flex-direction: row;
+  flex-direction: wrap;
+  font-size: 1rem;
+  font-weight: 500;
   gap: 0.5rem;
   justify-content: center;
-  color: #ffffff;
+  color: #68625d;
   position: fixed;
-  bottom: 0;
+  top: 0;
   align-items: center;
-  background-color: #658aa9;
+  background-image: linear-gradient(to right, #bffff5, #ffc2dc);
   width: 100%;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.portfolioLink:hover {
+  cursor: url(images/icon-daisy3.png), pointer;
+  background-image: linear-gradient(to right, #bffff5, #ffc2dc);
 }
 
 .backgroundImage {
