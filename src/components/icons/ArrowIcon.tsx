@@ -14,7 +14,7 @@ export function ArrowIcon(props: IconProps) {
       <path
         d="M16 12L24 20L16 28"
         stroke="#716B6C"
-        className={`${props.className}`}
+        className={`origin-center ${props.className}`}
         stroke-width="3"
         stroke-linecap="round"
         stroke-linejoin="round"
