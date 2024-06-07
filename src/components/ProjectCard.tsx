@@ -17,7 +17,7 @@ export function ProjectCard(props: ProjectCardProps) {
         <div className={`${props.backgroundColor} flex rounded-xl h-[22.5rem]`}>
           <img
             src={props.image}
-            className="object-contain px-10 group-hover:scale-[1.08] transition ease-in-out"
+            className="object-contain p-10 group-hover:scale-[1.08] transition ease-in-out"
           />
         </div>
 

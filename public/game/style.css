@@ -31,7 +31,7 @@ button {
   flex-direction: column;
   gap: 4rem;
   position: absolute;
-  padding-top: 20vh;
+  padding-top: 16vh;
   padding-bottom: 20vh;
   height: 100%;
   width: 100%;
@@ -110,7 +110,7 @@ button {
   position: fixed;
   top: 0;
   align-items: center;
-  background-image: linear-gradient(to right, #bffff5, #ffc2dc);
+  background-image: linear-gradient(to right, #bafff5, #ffbbd9);
   width: 100%;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -118,7 +118,14 @@ button {
 
 .portfolioLink:hover {
   cursor: url(images/icon-daisy3.png), pointer;
-  background-image: linear-gradient(to right, #bffff5, #ffc2dc);
+  color: #534e4a;
+  background-image: linear-gradient(to right, #8dffee, #ffa1ca);
+}
+
+.portfolioArrowIcon {
+  font-size: 1.5rem;
+  line-height: 1rem;
+  padding-bottom: 0.25rem;
 }
 
 .backgroundImage {
