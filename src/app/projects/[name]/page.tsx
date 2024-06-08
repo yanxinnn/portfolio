@@ -47,8 +47,9 @@ export default async function Page(props: PageProps) {
     const { content, frontmatter } = await compileMDX<PageMeta>({
       source: text,
       components: {
+        // Section titles
         h1: (props) => (
-          <h1 className="font-medium text-[2rem] inline-block mt-12">
+          <h1 className="font-medium text-[1.75rem] md:text-[2rem] inline-block mt-12">
             {props.children}
             <div
               className="h-[0.3125rem] w-full mt-0.5 mb-6"
@@ -56,22 +57,31 @@ export default async function Page(props: PageProps) {
             ></div>
           </h1>
         ),
+        // Section subtitles (with top padding)
         h2: (props) => (
-          <p className="text-2xl font-semibold pt-10 pb-6">{props.children}</p>
-        ),
-        h3: (props) => (
-          <p className="text-2xl text-center py-8 leading-9 font-medium mx-16">
+          <p className="text-xl md:text-2xl font-semibold pt-10 pb-6">
             {props.children}
           </p>
         ),
-        h4: (props) => (
-          <p className="text-2xl font-semibold pb-6">{props.children}</p>
+        // Spotlight centered text
+        h3: (props) => (
+          <p className="text-xl md:text-2xl text-center py-8 leading-9 font-medium mx-16">
+            {props.children}
+          </p>
         ),
+        // Section subtitle (without top padding)
+        h4: (props) => (
+          <p className="text-xl md:text-2xl font-semibold pb-6">
+            {props.children}
+          </p>
+        ),
+        // Bullet point indent
         ul: (props) => (
-          <ul className="list-disc *:ml-12 font-body leading-8 font-normal text-lg">
+          <ul className="list-disc *:ml-12 font-body leading-8 font-normal text-base md:text-lg">
             {props.children}
           </ul>
         ),
+        p: (props) => <p className="leading-8">{props.children}</p>,
         ImageContainer,
       },
       options: {
@@ -99,7 +109,7 @@ export default async function Page(props: PageProps) {
           >
             <div className="flex flex-col gap-4 max-w-auto lg:max-w-60 text-center lg:text-left">
               <h1>{frontmatter.title as string}</h1>
-              <p>{frontmatter.description as string}</p>
+              <h4>{frontmatter.description as string}</h4>
             </div>
             <img
               src={frontmatter.topBannerImage}

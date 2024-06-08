@@ -7,7 +7,7 @@ type ImageContainerProps = {
 export function ImageContainer(props: ImageContainerProps) {
   return (
     <div className="flex flex-col gap-4 items-center pt-2 pb-6">
-      <div className="self-stretch grid grid-flow-col gap-4 place-content-center">
+      <div className="self-stretch grid grid-flow-col gap-2 md:gap-4 place-content-center">
         {/* Project image */}
         {props.images.map((image) => (
           <img
@@ -23,7 +23,7 @@ export function ImageContainer(props: ImageContainerProps) {
 
       {/* Description */}
       {props.description && (
-        <p className="font-body italic text-sm font-medium text-stone-400">
+        <p className="font-body italic text-sm font-medium text-stone-400 text-center">
           {props.description}
         </p>
       )}

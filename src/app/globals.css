@@ -29,7 +29,7 @@
     @apply px-3 tracking-wider text-sm font-body uppercase text-stone-500 font-medium leading-7;
   }
 
-  /* page subtitle */
+  /* home page subtitle */
   h4 {
     @apply font-body text-lg md:text-xl;
   }
