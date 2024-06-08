@@ -1,3 +1,4 @@
+import React, { useEffect } from "react";
 import { readFileSync, readdirSync } from "fs";
 import { notFound } from "next/navigation";
 import { join } from "path";
@@ -6,6 +7,8 @@ import Link from "next/link";
 import { ImageContainer } from "@/components/ImageContainer";
 import { ProjectBotNav } from "@/components/ProjectBotNav";
 import ScrollToTopButton from "@/components/ScrollToTopButton";
+import { Metadata } from "next";
+import { serialize } from "next-mdx-remote/serialize";
 
 type PageProps = {
   params: {
@@ -172,4 +175,20 @@ export function generateStaticParams() {
     .map((project) => ({
       name: project,
     }));
+}
+
+export async function generateMetadata(props: PageProps) {
+  const path = join(process.cwd(), "src", "projects", props.params.name).concat(
+    ".mdx"
+  );
+  const file = readFileSync(path);
+  const text = file.toString("utf8");
+
+  const { frontmatter } = await serialize<any, PageMeta>(text, {
+    parseFrontmatter: true,
+  });
+
+  return {
+    title: `${frontmatter.title} • Yanxin Jiang Portfolio`,
+  } satisfies Metadata;
 }
