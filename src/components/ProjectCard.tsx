@@ -14,10 +14,12 @@ export function ProjectCard(props: ProjectCardProps) {
     <Link href={"projects/" + props.pageLink} className="group">
       <div className="flex flex-col gap-5">
         {/* Project image */}
-        <div className={`${props.backgroundColor} flex rounded-xl h-[22.5rem]`}>
+        <div
+          className={`${props.backgroundColor} flex rounded-xl h-[16rem] md:h-[22.5rem]`}
+        >
           <img
             src={props.image}
-            className="object-contain p-10 group-hover:scale-[1.08] transition ease-in-out"
+            className="object-contain p-6 sm-8 md:p-10 group-hover:scale-[1.08] transition ease-in-out"
           />
         </div>
 

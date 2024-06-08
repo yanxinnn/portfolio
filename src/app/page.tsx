@@ -22,7 +22,7 @@ export default function Home() {
       </div>
 
       {/* Intro */}
-      <div className="flex flex-row pt-24 gap-12 max-w-[48rem] mx-12">
+      <div className="flex flex-row pt-24 gap-12 max-w-[48rem] mx-20">
         <div className="flex flex-col gap-10 pb-4">
           <h1 className="text-earthy-500">Hey, I'm Yanxin (yang-sheen)!</h1>
 
