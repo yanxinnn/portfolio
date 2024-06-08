@@ -16,7 +16,7 @@
 
   /* page title */
   h1 {
-    @apply font-header font-bold text-4xl leading-10;
+    @apply font-header font-bold text-3xl md:text-4xl leading-[2.875rem];
   }
 
   /* project card title */
@@ -31,11 +31,11 @@
 
   /* page subtitle */
   h4 {
-    @apply font-body text-xl;
+    @apply font-body text-lg md:text-xl;
   }
 
   p {
-    @apply font-body leading-8 font-normal text-lg;
+    @apply font-body leading-8 font-normal text-base sm:text-lg;
   }
 
   button {
@@ -49,7 +49,7 @@
 
 @layer components {
   .header {
-    @apply font-header self-stretch flex px-12 py-6;
+    @apply font-header self-stretch flex px-8 md:px-12 py-6;
   }
   .navBar {
     @apply font-medium flex gap-12 text-lg;

@@ -22,11 +22,11 @@ export default function Home() {
       </div>
 
       {/* Intro */}
-      <div className="flex flex-row pt-24 gap-12 max-w-[48rem] mx-20">
+      <div className="flex flex-col md:flex-row pt-20 sm:pt-24 gap-0 lg:gap-12 max-w-[48rem] mx-8 sm:mx-20">
         <div className="flex flex-col gap-10 pb-4">
           <h1 className="text-earthy-500">Hey, I'm Yanxin (yang-sheen)!</h1>
 
-          <h4 className="pb-32 leading-9">
+          <h4 className="pb-8 md:pb-32 leading-9">
             A <span className="text-accent">UX Designer and Developer</span>{" "}
             passionate about creating impactful, delightful, and human
             experiences.
@@ -45,7 +45,7 @@ export default function Home() {
       </div>
 
       {/* Projects */}
-      <div className="bg-white self-stretch pt-20 pb-28 px-12">
+      <div className="bg-white self-stretch pt-20 pb-28 px-8 sm:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 max-w-[62rem] m-auto gap-x-[4.5rem] gap-y-24">
           <ProjectCard
             title="Pypeline"
@@ -67,17 +67,19 @@ export default function Home() {
       </div>
 
       {/* Link to interactive portfolio */}
-      <div className="flex flex-row pt-20 gap-48 mx-12">
+      <div className="flex flex-col md:flex-row pt-12 sm:pt-20 gap-0 md:gap-48 mx-8 sm:mx-12">
         <img
           src="/images/bunny.gif"
           alt="A pixelated bunny GIF"
-          className="transform object-none self-end bg-auto"
+          className="transform object-none self-center md:self-end bg-auto order-last md:order-first"
         />
 
         <div className="flex flex-col gap-5 items-center pb-20">
-          <h2 className="text-earthy-500">Got a bit more time to sp-hare?</h2>
+          <h2 className="text-earthy-500 text-center">
+            Got a bit more time to sp-hare?
+          </h2>
           <Link href="game/home.html">
-            <button className="flex flex-row gap-4 bg-lightAccent-100 hover:bg-lightAccent-200">
+            <button className="flex flex-col items-center md:flex-row gap-2 md:gap-4 bg-lightAccent-100 hover:bg-lightAccent-200">
               <GameIcon />
               Check out my interactive portfolio!
             </button>

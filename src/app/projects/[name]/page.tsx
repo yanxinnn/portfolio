@@ -94,16 +94,16 @@ export default async function Page(props: PageProps) {
 
           {/* Project banner */}
           <div
-            className="flex flex-wrap justify-center items-center gap-16 pt-8 pb-32 px-12"
+            className="flex flex-wrap justify-center items-center gap-16 pt-8 pb-32 px-8 lg:px-12"
             style={{ backgroundColor: frontmatter.backgroundColor }}
           >
-            <div className="flex flex-col gap-4 max-w-60">
+            <div className="flex flex-col gap-4 max-w-auto lg:max-w-60 text-center lg:text-left">
               <h1>{frontmatter.title as string}</h1>
               <p>{frontmatter.description as string}</p>
             </div>
             <img
               src={frontmatter.topBannerImage}
-              className="max-w-[32rem]"
+              className="bg-cover md:max-w-[32rem]"
             ></img>
           </div>
         </div>
@@ -133,7 +133,7 @@ export default async function Page(props: PageProps) {
         </div>
 
         {/* Project dependent content */}
-        <div className="*:px-[max(calc((100%-56rem)/2),_3rem)] pb-16">
+        <div className="*:px-8 lg:*:px-[max(calc((100%-56rem)/2),_3rem)] pb-16">
           {content}
         </div>
 

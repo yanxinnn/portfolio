@@ -10,7 +10,7 @@ type ProjectBotNavProps = {
 
 export function ProjectBotNav(props: ProjectBotNavProps) {
   return (
-    <div className="flex flex-row h-36 items-center px-16">
+    <div className="flex flex-row h-32 md:h-36 items-center px-8 md:px-16">
       {/* Previous project */}
       {props.prevProjectLink && (
         <Link href={props.prevProjectLink} className="group">
