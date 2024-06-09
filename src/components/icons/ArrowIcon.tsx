@@ -15,9 +15,9 @@ export function ArrowIcon(props: IconProps) {
         d="M16 12L24 20L16 28"
         stroke="#716B6C"
         className={`origin-center ${props.className}`}
-        stroke-width="3"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="3"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

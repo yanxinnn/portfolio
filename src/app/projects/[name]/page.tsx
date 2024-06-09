@@ -5,6 +5,7 @@ import { join } from "path";
 import { compileMDX } from "next-mdx-remote/rsc";
 import Link from "next/link";
 import { ImageContainer } from "@/components/ImageContainer";
+import { VideoContainer } from "@/components/VideoContainer";
 import { ProjectBotNav } from "@/components/ProjectBotNav";
 import ScrollToTopButton from "@/components/ScrollToTopButton";
 import { Metadata } from "next";
@@ -83,6 +84,7 @@ export default async function Page(props: PageProps) {
         ),
         p: (props) => <p className="leading-8">{props.children}</p>,
         ImageContainer,
+        VideoContainer,
       },
       options: {
         parseFrontmatter: true,
