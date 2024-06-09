@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ProjectCard } from "@/components/ProjectCard";
-import { LinkedinIcon } from "@/components/icons/LinkedinIcon";
 import { GameIcon } from "@/components/icons/GameIcon";
+import { ExternalLinkIcon } from "@/components/icons/ExternalLinkIcon";
 
 export default function Home() {
   return (
@@ -15,26 +15,43 @@ export default function Home() {
         <div className="grow"></div>
 
         <div className="navBar">
-          {/* <a>About</a>
-          <a>Projects</a>
-          <a>Resume</a> */}
+          {/* Contact info */}
+          <Link
+            href="https://www.linkedin.com/in/yanxinn/"
+            target="_blank"
+            className="navBarItem"
+          >
+            Linkedin
+          </Link>
+          <Link
+            href="mailto:yanxinjiang@live.com"
+            target="_blank"
+            className="navBarItem"
+          >
+            Email
+          </Link>
+
+          <div className="flex flex-row gap-2 group">
+            <Link href="/images/YanxinJiang_Resume.pdf" target="blank">
+              <div className="text-stone-550 group-hover:text-lightAccent-300">
+                Resume
+              </div>
+            </Link>
+            <ExternalLinkIcon className="group-hover:stroke-lightAccent-300" />
+          </div>
         </div>
       </div>
 
       {/* Intro */}
       <div className="flex flex-col md:flex-row pt-20 sm:pt-24 gap-0 lg:gap-12 max-w-[48rem] mx-8 sm:mx-20">
-        <div className="flex flex-col gap-10 pb-4">
+        <div className="flex flex-col gap-10 pb-4 md:pb-40">
           <h1 className="text-earthy-500">Hey, I'm Yanxin (yang-sheen)!</h1>
 
-          <h4 className="pb-8 md:pb-32 leading-9">
+          <h4 className="leading-9">
             A <span className="text-accent">UX Designer and Developer</span>{" "}
             passionate about creating impactful, delightful, and human
             experiences.
           </h4>
-
-          {/* <Link href="/images/YanxinJiang_Resume.pdf" target="blank">
-            Resume
-          </Link> */}
         </div>
 
         <img
@@ -67,11 +84,11 @@ export default function Home() {
       </div>
 
       {/* Link to interactive portfolio */}
-      <div className="flex flex-col md:flex-row pt-12 sm:pt-20 gap-0 md:gap-48 mx-8 sm:mx-12">
+      <div className="flex flex-col sm:flex-row pt-12 md:pt-20 gap-0 sm:gap-16 lg:gap-40 mx-8 sm:mx-12">
         <img
           src="/images/bunny.gif"
           alt="A pixelated bunny GIF"
-          className="transform object-none self-center md:self-end bg-auto order-last md:order-first"
+          className="transform object-none self-center sm:self-end bg-auto order-last sm:order-first"
         />
 
         <div className="flex flex-col gap-5 items-center pb-20">

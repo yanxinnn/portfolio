@@ -52,7 +52,10 @@
     @apply font-header self-stretch flex px-8 md:px-12 py-6;
   }
   .navBar {
-    @apply font-medium flex gap-12 text-lg;
+    @apply flex gap-10 text-lg font-medium;
+  }
+  .navBarItem {
+    @apply hover:text-lightAccent-300;
   }
   .logo {
     @apply font-bold text-2xl tracking-wider;
