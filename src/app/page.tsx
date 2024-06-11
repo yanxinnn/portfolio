@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ProjectCard } from "@/components/ProjectCard";
 import { GameIcon } from "@/components/icons/GameIcon";
 import { ExternalLinkIcon } from "@/components/icons/ExternalLinkIcon";
+import { CopyEmailButton } from "@/components/CopyEmailButton";
 
 export default function Home() {
   return (
@@ -23,13 +24,8 @@ export default function Home() {
           >
             Linkedin
           </Link>
-          <Link
-            href="mailto:yanxinjiang@live.com"
-            target="_blank"
-            className="navBarItem"
-          >
-            Email
-          </Link>
+
+          <CopyEmailButton />
 
           <div className="flex flex-row gap-2 group">
             <Link href="/images/YanxinJiang_Resume.pdf" target="blank">
@@ -106,24 +102,9 @@ export default function Home() {
 
       <div className="bg-earthy-500 self-stretch text-white flex justify-center py-3">
         <div className="font-body font-normal text-base">
-          Coded with ❤ by Yanxin Jiang
+          Coded with &#10084; by Yanxin Jiang
         </div>
       </div>
-
-      {/* Footer with contact info */}
-      {/* <div className="bg-earthy-500 text-white self-stretch flex flex-col items-center py-8 gap-4">
-        <Link
-          href="mailto:yanxinjiang@live.com"
-          target="_blank"
-          className="underline font-body leading-8 font-normal text-lg hover:text-lightAccent-100"
-        >
-          yanxinjiang@live.com
-        </Link>
-
-        <Link href="https://www.linkedin.com/in/yanxinn/" target="_blank">
-          <LinkedinIcon />
-        </Link>
-      </div> */}
     </div>
   );
 }

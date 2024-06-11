@@ -31,7 +31,7 @@ const ScrollToTopButton = () => {
   return (
     <a
       id="scrollToTopButton"
-      className={`iconCircleBackground flex justify-center items-center ${
+      className={`flex justify-center items-center bg-black bg-opacity-20 hover:bg-opacity-40 h-12 w-12 shadow-lg rounded-full ${
         isFixed ? "fixed bottom-8 right-8" : "absolute right-8 -mt-20"
       }`}
       href="#"
