@@ -213,8 +213,8 @@ export const roomTitles = [
   "Strategy Document",
 ];
 export const roomDescriptions = [
-  "Room is a mobile app that helps young adults living in cities find the perfect room and roommate.<br><br>\
-  As a UX Designer and Researcher within a team of 2 other designers, I played a pivotal role in shaping the app's user experience. I conducted competitive analysis, user surveys and interviews, led the creation of personas and journey maps, and designed wireframes that effectively utilized research findings for the mobile experience.<br><br>\
+  "Room is a mobile app designed for young adults living in cities find the perfect room and roommate. It offers a personalized experience by matching users with potential roommates based on their preferences, assisting in locating suitable living spaces, and facilitating a smooth transition into independent living with their new roommates. Room aims to make the process of finding the ideal room and roommate easy, safe, and enjoyable.<br><br>\
+  As a UX Designer on a team of 3 designers, I played a pivotal role in shaping the app's user experience. My responsibilities included conducting competitive analysis, gathering insights through user surveys and interviews, leading the development of personas and journey maps, and crafting wireframes that effectively incorporated research findings to enhance the mobile experience.<br><br>\
   <div class='projectCardsSection'><div class='projectCards'><div class='projectCardsTitle'>Product</div>Mobile App, Social Networking</div>\
   <div class='projectCards'><div class='projectCardsTitle'>My Role</div>UX Designer</div>\
   <div class='projectCards'><div class='projectCardsTitle'>Technologies</div>Figma, Google Forms</div></div><br>\
@@ -225,25 +225,42 @@ export const roomDescriptions = [
   <ul class='descriptionsNoPadding'><li>Analyzed competitors in the current market of roommate matching apps.</li><li>Conducted surveys amongst our targeted demographic to learn the objectives and pain points of their roommate/room experiences.</li><li>Generated personas and journey maps from the collected user research data.</li><li>Constructed user flows for both new and returning users with different objectives.</li><li>Created a strategy document outlining product objectives, market opportunities, and product visions.</li><li>Designed low/mid fidelity wireframes prototyping the sign-in/sign-up process, user profile customizations, roommate matching system and apartment listings search system.</li></ul><br>\
   <div class='projectSubtitles'>Result</div>My teammates and I designed a prototype for Room, a mobile dedicated to helping young adults find the perfect roommate, locate a suitable place to live, and smoothly transition into their new independent life with their roommates.<br><br>",
 
-  "Competitive analysis was conducted on 6 of the most popular room and/or roommate finder and other apps with similar functionalities. We categorized them by competitor type, priorities, key features, region accessibility, and KPIs. <br><br>From this research, opportunities were found to include the following features into Room:\
-  <ul class='descriptionsNoPadding'><li>Combine Tinder's swiping feature with Roomi's background checks and in-depth questionnaires to ensure mutual safety and increase user excitement for sharing commonalities with their matches.</li><li>Have a wide selection of search parameters for users to filter roommates and rentable rooms.</li><li>Make app accessible worldwide and available in multiple languages.</li><li>Landlords' profiles and details shown on listings for easy user access.</li><li>Different communication methods available such as text, call, and video call so people can familiarize with one another online before meeting in person.</li><li>Include ratings and testimonials for landlords and rooms/apartments from past renters.</li><li>Include additional resources to help users transition smoothly into their new shared space (paying bills, splitting chores, buying shared groceries, etc.).</li></ul>",
+  "My teammates and I conducted a competitive analysis on 6 popular room and/or roommate finder apps and other apps with similar functionalities, categorizing them by competitor type, priorities, key features, region accessibility, and KPIs.<br><br>From this research, we identified several opportunities to enhance Room with features that have proven beneficial in similar apps:\
+  <ul class='descriptionsNoPadding'>\
+  <li><span class='descriptionsHighlight'>Innovative matching.</span>\
+  Combine Tinder's swiping feature with Roomi's background checks and in-depth questionnaires to ensure mutual safety and increase user excitement for sharing commonalities with their matches.</li>\
+  <li><span class='descriptionsHighlight'>Advanced search filters.</span>\
+  Offer a wide range of search parameters to refine roommate and room searches, ensuring relevance to user preferences.</li>\
+  <li><span class='descriptionsHighlight'>Global accessibility.</span>\
+  Ensure app availability in multiple languages worldwide, promoting inclusivity and user convenience across regions.</li>\
+  <li><span class='descriptionsHighlight'>Diverse communication methods.</span>\
+  Provide text, call, and video call options for online interaction so users can get to know each other online before meeting in person.</li>\
+  <li><span class='descriptionsHighlight'>Detailed listings.</span>\
+  Display landlords' profiles and details on listings for easy access, increasing trust and transparency.</li>\
+  <li><span class='descriptionsHighlight'>Ratings and testimonials.</span>\
+  Include previous renter feedback for landlords and properties to build trust and credibility.</li>\
+  <li><span class='descriptionsHighlight'>Communal living resources.</span>\
+  Offer additional resources (such as tips on bill management, chore division, and shared groceries) to support smooth transitions harmonious cohabitation.</li></ul>",
 
   "The goal of our user research was to understand the concerns and desires 18-25 year olds have in regards to the roommate/room  searching process. Participants were asked about their past or current rooming experiences, their experience with NYU's roommate matching system (if applicable), their current solutions to finding a roommate or room, and their level of comfort in using quick digital transaction to pay for rent.<br><br>The surveys were carried out through anonymous Google Forms which were sent out to the NYU community, friends, and friends of friends.",
 
-  "Our research of 21 participants, with an age range of mostly 18-23, found that the majority of them:\
-  <ul class='descriptionsNoPadding'><li>Have a roommate</li><li>Prefer to live with one roommate</li><li>Find NYU's roommate matching system's personality quiz successful in pairing roommates that get along</li><li>Would love for NYU's process to have more options/preferences for selecting roommates and to have the ability to connect with potential roommates beforehand</li><li>Use Zillow as the main app to find places to live</li></ul><br>\
-  The main worries participants have surrounding finding a roommate all fell into the categories of:\
-  <ul class='descriptionsNoPadding'><li>The cleanliness of the roommate</li><li>Possible personality/lifestyle clashes</li><li>Communication problems</li></ul><br>\
-  It was also found that:\
-  <ul class='descriptionsNoPadding'><li>There is a 50/50 divide in trusting Venmo</li><li>Those that said they trusted Venmo for paying their rent expressed it was because of the convenience and ability to confirm transactions with checks</li><li>Those that expressed concern about using Venmo for their rent gave the reason of Venmo being informal</li></ul>",
+  "Our research of 21 participants, with an age range of 18-25, revealed these key insights:\
+  <ul class='descriptionsNoPadding'>\
+  <li><span class='descriptionsHighlight'>Majority preferred living with one roommate.</span>\
+  Reasons given were quieter living conditions, easier communication, and overall comfort. Understanding this preference helped us determine how much customization was needed for the app’s group interactions and management features.</li>\
+  <li><span class='descriptionsHighlight'>Personality quizzes were generally successful.</span>\
+  Experiences of roommate matches by college roommate matching systems were generally positive. However, many expressed a desire for a more personalized process with more options for selecting roommates and the ability to connect with potential roommates beforehand. This validated our plan to use personality quizzes for roommate matching, while also helping us gauge the depth of detail needed. Additionally, it enforced the importance of the app offering diverse communication methods.</liv>\
+  <li><span class='descriptionsHighlight'>The main considerations when evaluating a potential roommate.</span>\
+  Key factors for considering a potential roommate included their cleanliness, trustworthiness, safety, responsibility in paying bills, and potential personality or lifestyle clashes. Based on this information, we optimized Room's filtering system to ensure that users can search for roommates and rooms by the categories most important to them.</li></ul>",
 
-  "From the user research, we were able to optimize Room's filtering system to make sure that users are able to search for roommates and rooms by the categories most important to them. It also gave us a clear picture of who our target demographic was, their situations, their motives, and their fears, informing the construction of our 2 personas, Naomi and Arjun.<br><br>While Naomi and Arjun are both searching for a roommate, their differences in age, occupation, personalities, likes/dislikes, and circumstances mean that their criterias for a roommate are very different.<br><br>\
-  During the designing of Room, we looked through the eyes of Naomi and Arjun to make sure that the experience our app provided was versatile and useful for a broad spectrum of users.",
+  "From the user research, we were able to optimize Room's filtering system to make sure that users are able to search for roommates and rooms by the categories most important to them. It also gave us a clear picture of who our target demographic was, their situations, their motives, and their fears, informing the construction of our 2 personas, Naomi and Arjun.<br><br>While Naomi and Arjun are both searching for a roommate, their differences in age, occupation, personalities, likes/dislikes, and circumstances mean that their criteria for a roommate vary significantly. <br><br>\
+  As we designed Room, we adopted the perspectives of Naomi and Arjun to ensure that the app experience was versatile and useful for a broad spectrum of users.",
 
-  "The journey maps created for Naomi and Arjun illustrate 2 scenarios in which users may utilize Room to find a roommate. Each of these experiences has its own highs and lows in terms of user satisfaction.<br><br>\
-  These journey maps highlight pivotal moments where we can leverage positives emotions and take proactive steps to ease negative feelings.",
+  "I led the development of journey maps for Naomi and Arjun, portraying two scenarios demonstrating how users might use Room to find a roommate and fulfill their individual goals. Each of these experiences has its own highs and lows in terms of user satisfaction.<br><br>\
+  These journey maps helped pinpoint pivotal moments where we could capitalize on positives emotions and take proactive measures to alleviate negative feelings throughout the user’s app experience. Additionally, KPI’s were established for each stage of the user journey for effective tracking and optimization.",
 
-  "Our 2 user flows for new and returning users show the different screens users visit and decisions they make as they complete their goals within the app. This ensures that each step of a user's in-app experience is efficient and purposeful.",
+  "Then, to gain a more granular understanding of the user experience in accomplishing specific tasks, we utilized user flows to showcase 2 common scenarios: new users onboarding and returning users checking-in.<br><br>\
+  These user flows show the different screens users visit and decisions they make as they complete their goals within the app. This ensures that each step of a user's session is efficient and purposeful.",
 
   "Lastly, here is the strategy document that compiles Room's product objectives, market opportunities, and product vision.",
 ];

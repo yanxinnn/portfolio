@@ -18,7 +18,9 @@ export function VideoContainer(props: VideoContainerProps) {
             controls={props.controls}
             muted={props.muted}
             autoPlay={props.autoplay}
-            className={props.bordered ? "rounded-lg" : ""}
+            className={
+              props.bordered ? "rounded-lg border border-[#D9DDE1]" : ""
+            }
           >
             <source src={vid} type="video/mp4" />
           </video>
