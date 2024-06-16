@@ -61,6 +61,13 @@
   .logo {
     @apply font-bold text-2xl tracking-wider;
   }
+  .noDrag {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
 
   /* Projects */
   .projectStatsLabel {
