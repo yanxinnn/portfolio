@@ -27,6 +27,7 @@ type PageMeta = {
   topBannerImage: string;
   bottomBannerImage: string;
   bottomBannerImageSpecs?: string;
+  bottomBannerPrototype?: string;
 
   prevProjectName: string;
   prevProjectLink: string;
@@ -157,6 +158,13 @@ export default async function Page(props: PageProps) {
           style={{ backgroundColor: frontmatter.backgroundColor }}
         >
           <img src={frontmatter.bottomBannerImage} />
+          <iframe
+            src={frontmatter.bottomBannerPrototype}
+            allowFullScreen
+            width="400"
+            height="800"
+            className={`p-2`}
+          ></iframe>
         </div>
 
         {/* Benchmark for scroll to top of page button */}

@@ -64,7 +64,7 @@ export default function Home() {
             title="Pypeline"
             pageLink="pypeline"
             image="images/pypeLine/pypeLine.png"
-            backgroundColor="bg-[#d1d8f3]"
+            backgroundColor="bg-[#D1D8F3]"
             tags={["SaaS", "Data Lifecycle Management"]}
             description="A SaaS application empowering data professionals to streamline data lifecycle operations."
           />
@@ -72,9 +72,17 @@ export default function Home() {
             title="Float-it Notes"
             pageLink="float-it-notes"
             image="images/floatitNotes/floatitNotes.png"
-            backgroundColor="bg-[#bee6ee]"
+            backgroundColor="bg-[#BEE6EE]"
             tags={["Chrome Extension", "Productivity"]}
             description="A Chrome extension helping students to keep track of their tasks in a stress-free way."
+          />
+          <ProjectCard
+            title="Room"
+            pageLink="room"
+            image="images/room/room.png"
+            backgroundColor="bg-[#F6F0BD]"
+            tags={["Mobile App", "Social Networking"]}
+            description="A mobile app helping Gen Z-ers living in cities find the perfect room and roommate."
           />
         </div>
       </div>

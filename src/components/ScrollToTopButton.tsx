@@ -35,6 +35,7 @@ const ScrollToTopButton = () => {
         isFixed ? "fixed bottom-8 right-8" : "absolute right-8 -mt-20"
       }`}
       href="#"
+      aria-label="Scroll back to top"
     >
       <ArrowUpIcon />
     </a>
