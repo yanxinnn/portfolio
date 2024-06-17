@@ -13,8 +13,6 @@ export default function Home() {
           YJ
         </Link>
 
-        <div className="grow"></div>
-
         <div className="navBar">
           {/* Contact info */}
           <Link

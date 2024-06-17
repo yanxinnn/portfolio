@@ -53,7 +53,7 @@
     @apply font-header self-stretch flex px-8 md:px-12 py-6;
   }
   .navBar {
-    @apply flex gap-10 text-lg font-medium;
+    @apply flex gap-10 ml-auto text-lg font-medium;
   }
   .navBarItem {
     @apply hover:text-lightAccent-300;
@@ -78,5 +78,8 @@
   }
   .projectColorBlock {
     @apply bg-[#D9DDE1] h-fit pb-12 mx-0 mt-12;
+  }
+  .embed_documentation_footer--documentationFooter--cRlI0 {
+    @apply visible;
   }
 }
