@@ -158,13 +158,12 @@ export default async function Page(props: PageProps) {
           style={{ backgroundColor: frontmatter.backgroundColor }}
         >
           <img src={frontmatter.bottomBannerImage} />
-          <iframe
+          {/* <iframe
             src={frontmatter.bottomBannerPrototype}
             allowFullScreen
-            width="400"
+            width="500"
             height="800"
-            className={`p-2`}
-          ></iframe>
+          ></iframe> */}
         </div>
 
         {/* Benchmark for scroll to top of page button */}
