@@ -157,13 +157,19 @@ export default async function Page(props: PageProps) {
           }`}
           style={{ backgroundColor: frontmatter.backgroundColor }}
         >
-          <img src={frontmatter.bottomBannerImage} />
-          {/* <iframe
+          <img
+            src={frontmatter.bottomBannerImage}
+            style={!frontmatter.bottomBannerImage ? { display: "none" } : {}}
+          />
+          <iframe
             src={frontmatter.bottomBannerPrototype}
             allowFullScreen
             width="500"
             height="800"
-          ></iframe> */}
+            style={
+              !frontmatter.bottomBannerPrototype ? { display: "none" } : {}
+            }
+          ></iframe>
         </div>
 
         {/* Benchmark for scroll to top of page button */}
