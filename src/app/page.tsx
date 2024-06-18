@@ -3,41 +3,16 @@ import { ProjectCard } from "@/components/ProjectCard";
 import { GameIcon } from "@/components/icons/GameIcon";
 import { ExternalLinkIcon } from "@/components/icons/ExternalLinkIcon";
 import { CopyEmailButton } from "@/components/CopyEmailButton";
+import { Header } from "@/components/Header";
 
 export default function Home() {
   return (
     <div className="bg-[#fef2ec] flex flex-col items-center">
       {/* Header */}
-      <div className="header">
-        <Link href="/" className="logo text-earthy-500 fixed">
-          YJ
-        </Link>
-
-        <div className="navBar">
-          {/* Contact info */}
-          <Link
-            href="https://www.linkedin.com/in/yanxinn/"
-            target="_blank"
-            className="navBarItem"
-          >
-            Linkedin
-          </Link>
-
-          <CopyEmailButton />
-
-          <div className="flex flex-row gap-2 group">
-            <Link href="/images/YanxinJiang_Resume.pdf" target="blank">
-              <div className="text-stone-550 group-hover:text-lightAccent-300">
-                Resume
-              </div>
-            </Link>
-            <ExternalLinkIcon className="group-hover:stroke-lightAccent-300" />
-          </div>
-        </div>
-      </div>
+      <Header />
 
       {/* Intro */}
-      <div className="flex flex-col md:flex-row pt-10 sm:pt-24 gap-2 lg:gap-12 max-w-[48rem] mx-8 sm:mx-20">
+      <div className="flex flex-col md:flex-row pt-10 sm:pt-24 gap-6 lg:gap-12 max-w-[48rem] mx-8 sm:mx-20">
         <div className="flex flex-col gap-10 pb-4 md:pb-40">
           <h1 className="text-earthy-500">Hey, I'm Yanxin (yang-sheen)!</h1>
 

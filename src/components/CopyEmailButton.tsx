@@ -15,7 +15,10 @@ export function CopyEmailButton() {
 
   return (
     <div>
-      <button className="navBarItem p-0" onClick={handleButtonClick}>
+      <button
+        className="p-0 hover:text-lightAccent-300"
+        onClick={handleButtonClick}
+      >
         Email
       </button>
 
