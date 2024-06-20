@@ -32,7 +32,7 @@ export default function Home() {
 
       {/* Projects */}
       <div className="bg-white self-stretch pt-16 pb-24 px-8 sm:px-12">
-        <div className="grid grid-cols-1 lg:grid-cols-2 max-w-[62rem] m-auto gap-x-5 gap-y-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 max-w-[62rem] m-auto gap-x-5 gap-y-12">
           <ProjectCard
             title="Pypeline"
             pageLink="pypeline"
