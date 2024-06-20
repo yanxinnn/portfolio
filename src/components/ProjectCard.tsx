@@ -12,7 +12,7 @@ type ProjectCardProps = {
 export function ProjectCard(props: ProjectCardProps) {
   return (
     <Link href={"projects/" + props.pageLink} className="group">
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-5 hover:bg-neutral-100 rounded-xl p-7">
         {/* Project image */}
         <div
           className={`${props.backgroundColor} flex rounded-xl h-[16rem] md:h-[22.5rem]`}
@@ -29,7 +29,10 @@ export function ProjectCard(props: ProjectCardProps) {
 
           <div className="flex flex-wrap gap-3">
             {props.tags.map((tag) => (
-              <div key={tag} className="bg-neutral-150 rounded-full">
+              <div
+                key={tag}
+                className="bg-neutral-150 group-hover:bg-neutral-200 rounded-full"
+              >
                 <h3>{tag}</h3>
               </div>
             ))}
