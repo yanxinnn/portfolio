@@ -28,6 +28,8 @@ export function ProjectBotNav(props: ProjectBotNavProps) {
         </Link>
       )}
 
+      <div className="grow" />
+
       {/* Next project */}
       {props.nextProjectLink && (
         <Link
