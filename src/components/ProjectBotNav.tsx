@@ -10,13 +10,17 @@ type ProjectBotNavProps = {
 
 export function ProjectBotNav(props: ProjectBotNavProps) {
   return (
-    <div className="flex flex-row h-32 md:h-36 items-center px-8 md:px-16">
+    <div className="flex flex-row justify-between gap-8 py-4 sm:py-8 px-4 lg:px-16">
       {/* Previous project */}
       {props.prevProjectLink && (
-        <Link href={props.prevProjectLink} className="group">
-          <div className="flex flex-row gap-4 items-center group-hover:text-lightAccent-300">
-            <ArrowIcon className="transform scale-[-1] group-hover:stroke-lightAccent-300" />
-            <div className="flex flex-col text-left">
+        <Link
+          href={props.prevProjectLink}
+          className="hover:text-lightAccent-300"
+        >
+          <div className="flex flex-row flex-wrap gap-x-4 items-center justify-start">
+            <ArrowIcon className="transform scale-[-1]" />
+
+            <div className="text-left">
               <p>Previous</p>
               <h2>{props.prevProjectName}</h2>
             </div>
@@ -24,17 +28,19 @@ export function ProjectBotNav(props: ProjectBotNavProps) {
         </Link>
       )}
 
-      <div className="grow" />
-
       {/* Next project */}
       {props.nextProjectLink && (
-        <Link href={props.nextProjectLink} className="group">
-          <div className="flex flex-row gap-4 items-center group-hover:text-lightAccent-300">
-            <div className="flex flex-col text-right">
+        <Link
+          href={props.nextProjectLink}
+          className="hover:text-lightAccent-300"
+        >
+          <div className="flex flex-row flex-wrap-reverse gap-x-4 items-center justify-end">
+            <div className="text-right">
               <p>Next</p>
               <h2>{props.nextProjectName}</h2>
             </div>
-            <ArrowIcon className="group-hover:stroke-lightAccent-300" />
+
+            <ArrowIcon />
           </div>
         </Link>
       )}

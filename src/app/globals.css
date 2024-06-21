@@ -65,7 +65,7 @@
 
   /* Projects */
   .projectStatsLabel {
-    @apply pl-0 text-stone-450 leading-5;
+    @apply pl-0 text-stone-400 leading-5 font-semibold;
   }
   .projectStatsText {
     @apply text-base leading-7;

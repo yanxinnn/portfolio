@@ -67,7 +67,7 @@ export default async function Page(props: PageProps) {
         ),
         // Spotlight centered text
         h3: (props) => (
-          <p className="text-xl md:text-2xl text-center py-8 leading-9 font-medium mx-16">
+          <p className="text-xl md:text-2xl text-center py-8 leading-9 font-medium mx-8 md:mx-16">
             {props.children}
           </p>
         ),
@@ -107,7 +107,7 @@ export default async function Page(props: PageProps) {
 
           {/* Project banner */}
           <div
-            className="flex flex-wrap justify-center items-center gap-16 pt-8 pb-32 px-8 lg:px-12"
+            className="flex flex-wrap justify-center items-center gap-16 pt-8 pb-32 px-4 md:px-8 lg:px-12"
             style={{ backgroundColor: frontmatter.backgroundColor }}
           >
             <div className="flex flex-col gap-4 max-w-auto lg:max-w-60 text-center lg:text-left">
@@ -122,7 +122,7 @@ export default async function Page(props: PageProps) {
         </div>
 
         {/* Project stats */}
-        <div className="flex flex-wrap gap-x-16 gap-y-6 w-fit place-self-center -mt-12 bg-white items-center py-5 px-6 shadow-md rounded-lg mx-12">
+        <div className="flex flex-wrap gap-x-16 gap-y-6 w-fit place-self-center -mt-12 bg-white items-center py-5 px-6 shadow-md rounded-lg mx-4 sm:mx-8 md:mx-12">
           <div className="flex flex-col gap-2 max-w-[12rem]">
             <h3 className="projectStatsLabel">My Role</h3>
             <p className="projectStatsText whitespace-pre-wrap">
@@ -146,7 +146,7 @@ export default async function Page(props: PageProps) {
         </div>
 
         {/* Project dependent content */}
-        <div className="*:px-8 lg:*:px-[max(calc((100%-56rem)/2),_3rem)] pb-16">
+        <div className="*:px-4 sm:*:px-8 lg:*:px-[max(calc((100%-56rem)/2),_3rem)] pb-16">
           {content}
         </div>
 
