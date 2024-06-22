@@ -12,7 +12,7 @@ export default function Home() {
       <Header />
 
       {/* Intro */}
-      <div className="flex flex-col md:flex-row pt-10 sm:pt-24 gap-6 lg:gap-12 max-w-[48rem] mx-8 sm:mx-20">
+      <div className="flex flex-col md:flex-row pt-10 md:pt-24 gap-6 lg:gap-12 max-w-[48rem] mx-8 sm:mx-20">
         <div className="flex flex-col gap-10 pb-4 md:pb-40">
           <h1 className="text-earthy-500">Hey, I'm Yanxin (yang-sheen)!</h1>
 

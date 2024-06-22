@@ -27,7 +27,7 @@ export function Header() {
 
   return (
     <nav className="self-stretch sticky top-0 z-10">
-      <nav className="header justify-between sm:px-12">
+      <nav className="header justify-between px-4 sm:px-8 md:px-12">
         <Link
           href="/"
           className="font-bold text-2xl tracking-wider text-earthy-500"
@@ -38,7 +38,7 @@ export function Header() {
         <div
           className={`gap-10 text-lg font-medium hidden sm:flex ${
             isScrolled
-              ? "bg-white/50 backdrop-blur-md shadow-md rounded-full absolute top-3 right-6 px-6 py-3"
+              ? "bg-white/50 backdrop-blur-md shadow-md rounded-full absolute top-3 right-2 md:right-6 px-6 py-3"
               : ""
           }`}
         >
@@ -66,7 +66,7 @@ export function Header() {
         <button
           className={`sm:hidden p-0 ${
             isScrolled
-              ? "bg-white/40 backdrop-blur-md shadow-md rounded-full absolute top-4 right-5 p-3"
+              ? "bg-white/40 backdrop-blur-md shadow-md rounded-full absolute top-2 right-1 p-3"
               : ""
           }`}
           onClick={() => setIsOpen(!isOpen)}
@@ -77,7 +77,7 @@ export function Header() {
 
       {isOpen && (
         <div className="relative sm:hidden">
-          <div className="absolute top-0 right-8 flex flex-col gap-4 text-lg font-medium p-6 bg-white w-56 border border-neutral-200 rounded-lg shadow-md">
+          <div className="absolute top-0 right-4 flex flex-col gap-4 text-lg font-medium p-6 bg-white w-56 border border-neutral-200 rounded-lg shadow-md">
             <Link
               href="https://www.linkedin.com/in/yanxinn/"
               target="_blank"
