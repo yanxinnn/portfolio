@@ -32,7 +32,9 @@ const ScrollToTopButton = () => {
     <a
       id="scrollToTopButton"
       className={`flex justify-center items-center bg-black bg-opacity-20 hover:bg-opacity-40 h-12 w-12 shadow-lg rounded-full ${
-        isFixed ? "fixed bottom-8 right-8" : "absolute right-8 -mt-20"
+        isFixed
+          ? "fixed bottom-4 sm:bottom-8 right-4 sm:right-8"
+          : "absolute right-4 sm:right-8 -mt-20"
       }`}
       href="#"
       aria-label="Scroll back to top"

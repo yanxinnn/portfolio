@@ -28,10 +28,7 @@ export function Header() {
   return (
     <nav className="self-stretch sticky top-0 z-10">
       <nav className="header justify-between px-4 sm:px-8 md:px-12">
-        <Link
-          href="/"
-          className="font-bold text-2xl tracking-wider text-earthy-500"
-        >
+        <Link href="/" className="logo text-earthy-500">
           YJ
         </Link>
 
