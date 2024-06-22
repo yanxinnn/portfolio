@@ -122,7 +122,7 @@ export default async function Page(props: PageProps) {
         </div>
 
         {/* Project stats */}
-        <div className="flex flex-wrap gap-x-16 gap-y-6 w-fit place-self-center -mt-12 bg-white items-center py-5 px-6 shadow-md rounded-lg mx-4 sm:mx-8 md:mx-12">
+        <div className="flex flex-wrap gap-x-16 gap-y-6 w-fit place-self-center -mt-12 bg-white items-center py-5 px-6 shadow-md rounded-lg mx-8 md:mx-12">
           <div className="flex flex-col gap-2 max-w-[12rem]">
             <h3 className="projectStatsLabel">My Role</h3>
             <p className="projectStatsText whitespace-pre-wrap">
