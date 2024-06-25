@@ -27,7 +27,7 @@ export function Header() {
 
   return (
     <nav className="self-stretch sticky top-0 z-10">
-      <nav className="header justify-between px-4 sm:px-8 md:px-12">
+      <nav className="header justify-between">
         <Link href="/" className="logo text-earthy-500">
           YJ
         </Link>
