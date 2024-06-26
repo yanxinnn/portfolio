@@ -33,14 +33,14 @@ export default function Home() {
       {/* Projects */}
       <div className="bg-white self-stretch pt-16 pb-24 px-8 sm:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 max-w-[62rem] m-auto gap-x-5 gap-y-12">
-          <ProjectCard
+          {/* <ProjectCard
             title="Pypeline"
             pageLink="pypeline"
-            image="images/pypeLine/pypeLine.png"
+            image="images/pypeline/pypeline.png"
             backgroundColor="bg-[#D1D8F3]"
             tags={["SaaS", "Data Lifecycle Management"]}
             description="A SaaS application empowering data professionals to streamline data lifecycle operations."
-          />
+          /> */}
           <ProjectCard
             title="Float-it Notes"
             pageLink="float-it-notes"
