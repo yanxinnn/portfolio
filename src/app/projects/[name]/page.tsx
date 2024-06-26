@@ -21,6 +21,7 @@ type PageMeta = {
   title: string;
   description: string;
   backgroundColor: string;
+  backgroundColorLight: string;
   myRole: string;
   team: string;
   myTools: string;
