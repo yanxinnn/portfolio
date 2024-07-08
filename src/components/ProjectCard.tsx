@@ -11,8 +11,11 @@ type ProjectCardProps = {
 
 export function ProjectCard(props: ProjectCardProps) {
   return (
-    <Link href={"projects/" + props.pageLink} className="group">
-      <div className="flex flex-col gap-5 hover:bg-neutral-100 rounded-xl p-5 sm:p-7">
+    <Link
+      href={"projects/" + props.pageLink}
+      className="group hover:bg-neutral-100 rounded-xl p-5 sm:p-7"
+    >
+      <div className="flex flex-col gap-5">
         {/* Project image */}
         <div
           className={`${props.backgroundColor} flex rounded-xl h-[16rem] md:h-[22.5rem]`}

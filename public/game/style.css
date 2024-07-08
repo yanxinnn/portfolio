@@ -101,7 +101,6 @@ button {
 .portfolioLink {
   border: none !important;
   display: flex;
-  flex-direction: wrap;
   font-size: 1rem;
   font-weight: 500;
   gap: 0.5rem;
@@ -126,6 +125,7 @@ button {
   font-size: 1.5rem;
   line-height: 1rem;
   padding-bottom: 0.25rem;
+  margin-right: 1rem;
 }
 
 .backgroundImage {
