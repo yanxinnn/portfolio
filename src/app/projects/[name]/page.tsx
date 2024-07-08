@@ -26,9 +26,10 @@ type PageMeta = {
   team: string;
   myTools: string;
   topBannerImage: string;
-  bottomBannerImage: string;
-  bottomBannerImageSpecs?: string;
+  bottomBannerImage?: string;
+  bottomBannerVideo?: string;
   bottomBannerPrototype?: string;
+  bottomBannerContentSpecs?: string;
 
   prevProjectName: string;
   prevProjectLink: string;
@@ -154,14 +155,22 @@ export default async function Page(props: PageProps) {
         {/* Bottom banner */}
         <div
           className={`flex justify-center ${
-            frontmatter.bottomBannerImageSpecs ?? ""
+            frontmatter.bottomBannerContentSpecs ?? ""
           }`}
           style={{ backgroundColor: frontmatter.backgroundColor }}
         >
-          <img
-            src={frontmatter.bottomBannerImage}
-            style={!frontmatter.bottomBannerImage ? { display: "none" } : {}}
-          />
+          {frontmatter.bottomBannerImage && (
+            <img src={frontmatter.bottomBannerImage} />
+          )}
+
+          {frontmatter.bottomBannerVideo && (
+            <div style={{ maxWidth: "1000px" }}>
+              <video preload="metadata" controls>
+                <source src={frontmatter.bottomBannerVideo} type="video/mp4" />
+              </video>
+            </div>
+          )}
+
           <iframe
             src={frontmatter.bottomBannerPrototype}
             allowFullScreen
