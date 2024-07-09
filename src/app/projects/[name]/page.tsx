@@ -164,11 +164,9 @@ export default async function Page(props: PageProps) {
           )}
 
           {frontmatter.bottomBannerVideo && (
-            <div style={{ maxWidth: "1000px" }}>
-              <video preload="metadata" controls>
-                <source src={frontmatter.bottomBannerVideo} type="video/mp4" />
-              </video>
-            </div>
+            <video preload="metadata" controls className="max-w-4xl rounded-lg">
+              <source src={frontmatter.bottomBannerVideo} type="video/mp4" />
+            </video>
           )}
 
           <iframe
