@@ -50,12 +50,12 @@ export default function Home() {
             description="A Chrome extension helping students to keep track of their tasks in a stress-free way."
           />
           <ProjectCard
-            title="Room"
-            pageLink="room"
-            image="images/room/room.png"
+            title="BunkBuds"
+            pageLink="bunkbuds"
+            image="images/bunkBuds/bunkBuds.png"
             backgroundColor="bg-[#F6F0BD]"
             tags={["Mobile App", "Social Networking"]}
-            description="A mobile app helping Gen Z-ers living in cities find the perfect room and roommate."
+            description="A mobile app helping young adults in cities find the perfect roommate."
           />
         </div>
       </div>
