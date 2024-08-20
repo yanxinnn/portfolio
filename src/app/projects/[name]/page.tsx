@@ -116,10 +116,10 @@ export default async function Page(props: PageProps) {
               <h1>{frontmatter.title as string}</h1>
               <h4>{frontmatter.description as string}</h4>
             </div>
-            <img
-              src={frontmatter.topBannerImage}
-              className="bg-cover md:max-w-[32rem]"
-            ></img>
+            <ImageContainer
+              className={"bg-cover md:max-w-[32rem]"}
+              images={[frontmatter.topBannerImage]}
+            />
           </div>
         </div>
 

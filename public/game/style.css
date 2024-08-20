@@ -347,7 +347,7 @@ input#sound:checked ~ .off img {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 9999999;
+  z-index: 99;
   pointer-events: none;
   user-select: none;
 }

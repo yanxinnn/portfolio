@@ -1,8 +1,6 @@
 import Link from "next/link";
 import { ProjectCard } from "@/components/ProjectCard";
 import { GameIcon } from "@/components/icons/GameIcon";
-import { ExternalLinkIcon } from "@/components/icons/ExternalLinkIcon";
-import { CopyEmailButton } from "@/components/CopyEmailButton";
 import { Header } from "@/components/Header";
 
 export default function Home() {
@@ -26,7 +24,7 @@ export default function Home() {
         <img
           src="/images/yanxin.gif"
           alt="A pixelated Yanxin GIF"
-          className="noDrag transform scale-x-[-1] object-none self-end bg-auto"
+          className="transform scale-x-[-1] object-none self-end bg-auto"
         />
       </div>
 
@@ -65,7 +63,7 @@ export default function Home() {
         <img
           src="/images/bunny.gif"
           alt="A pixelated bunny GIF"
-          className="noDrag transform object-none self-center sm:self-end bg-auto order-last sm:order-first"
+          className="transform object-none self-center sm:self-end bg-auto order-last sm:order-first"
         />
 
         <div className="flex flex-col gap-5 items-center pb-20">
