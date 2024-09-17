@@ -5,7 +5,7 @@ import { Header } from "@/components/Header";
 
 export default function Home() {
   return (
-    <div className="bg-[#fef2ec] flex flex-col items-center">
+    <div className="bg-[#fff1ea] flex flex-col items-center">
       {/* Header */}
       <Header />
 
@@ -16,8 +16,10 @@ export default function Home() {
 
           <h4 className="leading-9">
             A <span className="text-accent">UX Designer and Developer</span>{" "}
-            passionate about creating impactful, delightful, and human
-            experiences.
+            passionate about creating{" "}
+            <span className="textGradient">impactful</span>,{" "}
+            <span className="textGradient">delightful</span>, and{" "}
+            <span className="textGradient">human</span> experiences.
           </h4>
         </div>
 
@@ -39,14 +41,7 @@ export default function Home() {
             tags={["SaaS", "Data Lifecycle Management"]}
             description="A SaaS application empowering data professionals to streamline data lifecycle operations."
           />
-          <ProjectCard
-            title="Float-it Notes"
-            pageLink="float-it-notes"
-            image="images/floatitNotes/floatitNotes.png"
-            backgroundColor="bg-[#BEE6EE]"
-            tags={["Chrome Extension", "Productivity"]}
-            description="A Chrome extension helping students to keep track of their tasks in a stress-free way."
-          />
+
           <ProjectCard
             title="BunkBuds"
             pageLink="bunkbuds"
@@ -54,6 +49,14 @@ export default function Home() {
             backgroundColor="bg-[#F6F0BD]"
             tags={["Mobile App", "Social Networking"]}
             description="A mobile app helping young adults in cities find the perfect roommate."
+          />
+          <ProjectCard
+            title="Float-it Notes"
+            pageLink="float-it-notes"
+            image="images/floatitNotes/floatitNotes.png"
+            backgroundColor="bg-[#BEE6EE]"
+            tags={["Chrome Extension", "Productivity"]}
+            description="A Chrome extension helping students to keep track of their tasks in a stress-free way."
           />
         </div>
       </div>

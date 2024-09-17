@@ -62,6 +62,10 @@
   .logo {
     @apply font-bold text-2xl tracking-wider hover:text-lightAccent-300;
   }
+  .textGradient:hover {
+    background: linear-gradient(to right, #c8f6fa, #ffd8e4);
+    @apply rounded-[4px] py-0.5;
+  }
   /* Projects */
   .projectStatsLabel {
     @apply pl-0 text-stone-400 leading-5 font-semibold;
